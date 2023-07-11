@@ -1,8 +1,10 @@
+import { TheFooter } from "@/components/TheFooter";
 import "./globals.css";
 import { Montserrat, Marcellus_SC } from "next/font/google";
+import { TheHeader } from "@/components/TheHeader";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
-const marcellus_SC = Marcellus_SC({ subsets: ["latin"] });
+const marcellus_SC = Marcellus_SC({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -12,7 +14,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>{children}</body>
+      <body className={montserrat.className}>
+        <TheHeader />
+        <main className="main">{children}</main>
+        <TheFooter />
+      </body>
     </html>
   );
 }
