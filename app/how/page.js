@@ -1,3 +1,3 @@
-export default function About() {
+export default function How() {
   return <h1>How</h1>;
 }
