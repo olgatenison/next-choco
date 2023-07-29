@@ -1,0 +1,102 @@
+/*hero style start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+.hero {
+  height: 100vh;
+  background-image: url(./bg_hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero__container {
+}
+
+.hero__title {
+  padding-top: 150px;
+  padding-bottom: 15px;
+}
+
+.hero__subtitle {
+  max-width: 400px;
+  padding-bottom: 50px;
+}
+
+.hero__buttons {
+}
+
+.hero__btn {
+  height: 40px;
+}
+
+.btn-white {
+  border: transparent;
+  color: var(--txt-gold);
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  padding: 12px 20px;
+}
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active {
+  color: var(--txt-white);
+  background-color: transparent;
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*hero style end*/
+/*hero media start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+@media screen and (max-width: 968px) {
+}
+@media screen and (max-width: 767px) {
+  .hero__title {
+    padding-top: 100px;
+    padding-bottom: 15px;
+    max-width: 200px;
+  }
+  .hero__subtitle {
+    max-width: 250px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 508px) {
+  .hero__subtitle {
+    max-width: 160px;
+    padding-bottom: 170px;
+    font-size: 10px;
+  }
+  .hero__btn {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .hero__title {
+    padding-top: 70px;
+    padding-bottom: 15px;
+    max-width: 200px;
+  }
+  .hero__buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero__btn {
+    margin-bottom: 20px;
+  }
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*hero style-media end*/

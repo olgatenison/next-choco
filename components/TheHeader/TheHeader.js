@@ -1,6 +1,13 @@
+"use client";
+
 import Link from "next/link";
+import "./header.css";
+
+import { useRouter } from "next/navigation";
 
 const TheHeader = () => {
+  const router = useRouter();
+
   return (
     <header class="header">
       <div class="header__container container">
@@ -30,7 +37,12 @@ const TheHeader = () => {
               </Link>
             </li>
           </ul>
-          <button type="button" class="navigation__btn btn">
+
+          <button
+            onClick={() => router.push("/shop")}
+            type="button"
+            class="navigation__btn btn"
+          >
             Order here
           </button>
         </nav>
@@ -38,4 +50,5 @@ const TheHeader = () => {
     </header>
   );
 };
+
 export { TheHeader };

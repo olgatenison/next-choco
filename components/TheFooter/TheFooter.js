@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "./footer.css";
 
 const TheFooter = () => {
   return (
@@ -42,6 +43,11 @@ const TheFooter = () => {
                 Chocolate is loved
               </Link>
             </li>
+            <li class="nav__item">
+              <Link class="nav__link" href="/shop">
+                Shop
+              </Link>
+            </li>
           </ul>
           <div class="footer__wrapper">
             <input
@@ -58,4 +64,5 @@ const TheFooter = () => {
     </footer>
   );
 };
+
 export { TheFooter };

@@ -1,0 +1,136 @@
+/*header style start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+.header {
+  background-color: var(--bg-darck-color);
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 80px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: "Marcellus SC", serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  color: var(--txt-gold);
+
+  transition: all 0.3s ease 0s;
+}
+
+.logo:hover,
+.logo:focus,
+.logo:active {
+  opacity: 0.6;
+}
+
+.header__navigation {
+}
+
+.navigation {
+  display: flex;
+  font-weight: 400;
+}
+.navigation__list {
+  display: flex;
+  align-items: center;
+}
+.navigation__item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.navigation__link {
+  color: var(--txt-white);
+
+  font-family: "Marcellus SC", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  text-transform: uppercase;
+
+  transition: all 0.3s ease 0s;
+}
+.navigation__link:hover,
+.navigation__link:focus,
+.navigation__link:active {
+  color: var(--txt-gold);
+}
+.navigation__btn {
+  margin-left: 30px;
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*header style end*/
+/*header media start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+@media screen and (max-width: 968px) {
+  .logo {
+    font-size: 24px;
+  }
+  .navigation__link {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .navigation__item:not(:last-child) {
+    margin-right: 14px;
+  }
+  .btn {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navigation__link {
+    display: none;
+  }
+  .title {
+    font-size: 34px;
+    line-height: 1.3;
+    letter-spacing: 1px;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0px 25px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .container {
+    margin: 0 auto;
+    padding: 0px 15px;
+    width: 100%;
+  }
+  .logo {
+    font-size: 14px;
+    max-width: 50px;
+  }
+  .navigation__btn {
+    margin-left: 10px;
+  }
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*header media end*/

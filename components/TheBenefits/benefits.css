@@ -1,0 +1,103 @@
+/*benefits style start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+.benefits {
+  background-color: var(--bg-violet-color);
+  padding-top: 100px;
+  padding-bottom: 80px;
+  color: var(--txt-black);
+  background-color: var(--bg-white);
+}
+.benefits__container {
+}
+
+.benefits__title {
+}
+
+.benefits__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+.benefits__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits__img {
+}
+
+.benefits__pic {
+  margin-bottom: 20px;
+}
+
+.benefits__subtitle {
+  font-family: "Marcellus SC", serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: var(--txt-gold);
+  margin-bottom: 15px;
+  text-align: center;
+}
+.benefits__txt {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  opacity: 70%;
+  text-align: center;
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*benefits style end*/
+/*benefits media start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+@media screen and (max-width: 968px) {
+  .benefits {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .benefits {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .benefits__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .benefits__txt {
+    font-size: 12px;
+    text-align: left;
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .benefits {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*benefits media end*/
