@@ -1,0 +1,219 @@
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+.reviews {
+}
+.reviews__container {
+  padding-top: 50px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reviews__title {
+  text-align: center;
+
+  padding-bottom: 30px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.reviews__title::after {
+  position: absolute;
+  content: "";
+  width: 280px;
+  height: 204px;
+  display: block;
+  background-image: url("../images/reviews/reviewes_right.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -90px;
+  left: -400px;
+}
+
+.reviews__title::before {
+  position: absolute;
+  content: "";
+  width: 280px;
+  height: 239px;
+  display: block;
+  background-image: url("../images/reviews/reviewes_left.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 450px;
+  right: -400px;
+}
+
+.reviews__subtitle {
+  padding-bottom: 90px;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.reviews__content {
+  padding-left: 30px;
+}
+
+.reviews__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border: var(--txt-gold) 1px solid;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: var(--bg-darck-color);
+  margin-bottom: 50px;
+}
+
+.reviews__photo {
+  width: 100px;
+  height: 100px;
+}
+
+.reviews__name {
+  font-family: "Marcellus SC", serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: var(--txt-gold);
+  padding-bottom: 10px;
+}
+
+.reviews__txt {
+  font-weight: 400;
+  color: var(--txt-white);
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*reviews style end*/
+/*reviews media start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+@media screen and (max-width: 968px) {
+  .reviews__title::after {
+    position: absolute;
+    content: "";
+    width: 280px;
+    height: 204px;
+    display: block;
+    background-image: url("../images/reviews/reviewes_right.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -90px;
+    left: -250px;
+  }
+
+  .reviews__title::before {
+    position: absolute;
+    content: "";
+    width: 280px;
+    height: 239px;
+    display: block;
+    background-image: url("../images/reviews/reviewes_left.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 100px;
+    right: -200px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .reviews__title::after {
+    position: absolute;
+    content: "";
+    width: 280px;
+    height: 204px;
+    display: block;
+    background-image: url("../images/reviews/reviewes_right.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -90px;
+    left: -250px;
+  }
+
+  .reviews__title::before {
+    position: absolute;
+    content: "";
+    width: 280px;
+    height: 239px;
+    display: block;
+    background-image: url("../images/reviews/reviewes_left.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 100px;
+    right: -300px;
+  }
+  .reviews__txt {
+    font-size: 12px;
+  }
+  .reviews__name {
+    font-size: 30px;
+  }
+  .reviews__subtitle {
+    font-size: 12px;
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .reviews__title::after {
+    position: absolute;
+    content: "";
+    display: none;
+  }
+
+  .reviews__title::before {
+    position: absolute;
+    content: "";
+    display: none;
+  }
+}
+@media screen and (max-width: 380px) {
+  .reviews__photo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .reviews__wrapper {
+    flex-direction: column;
+  }
+  .reviews__content {
+    padding-left: 0px;
+  }
+  .reviews__title {
+    max-width: 320px;
+    padding-bottom: 10px;
+  }
+  .reviews__subtitle {
+    padding-bottom: 40px;
+    max-width: 600px;
+  }
+  .reviews__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*reviews media end*/

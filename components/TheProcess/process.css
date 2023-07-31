@@ -1,0 +1,80 @@
+/*process style start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+.process {
+  background-color: #ffffff;
+}
+.process__container {
+  display: flex;
+
+  gap: 40px;
+  align-items: center;
+  padding-bottom: 60px;
+  padding-top: 50px;
+}
+
+.process__right {
+}
+
+.process__title {
+  font-size: 34px;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+
+.process__txt {
+  color: var(--txt-black);
+  padding-bottom: 20px;
+}
+.process__left {
+}
+.process__pic {
+  max-width: 40vw;
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*process style end*/
+/*process media start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+@media screen and (max-width: 968px) {
+  .process__title {
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 767px) {
+  .process__title {
+    font-size: 24px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    line-height: 1;
+  }
+  .process__txt {
+    font-size: 12px;
+    padding-bottom: 12px;
+  }
+  .process__container {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 508px) {
+  .process__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .process__pic {
+    max-width: 70vw;
+  }
+}

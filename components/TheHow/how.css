@@ -1,0 +1,128 @@
+/*how style start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+.how__container {
+  display: flex;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  align-items: center;
+}
+.how__left {
+}
+
+.how__right {
+  padding-left: 60px;
+}
+
+.how__pic {
+  max-width: 700px;
+}
+
+.how__title {
+  padding-bottom: 30px;
+}
+
+.how__subtitle {
+  max-width: 350px;
+}
+.subtitle {
+}
+.how__list {
+  max-width: 350px;
+}
+.how__item {
+  padding-bottom: 20px;
+  position: relative;
+  opacity: 0.8;
+}
+.how__item::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--txt-gold);
+  border-radius: 50%;
+  left: -20px;
+  top: 5px;
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*how style end*/
+/*how media start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+@media screen and (max-width: 968px) {
+  .how__container {
+    display: flex;
+    height: 500px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+  }
+  .how__pic {
+    max-width: 40vw;
+  }
+  .how__title {
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .how__title {
+    font-size: 24px;
+    padding-bottom: 15px;
+  }
+  .how__item {
+    padding-bottom: 20px;
+    position: relative;
+    opacity: 0.8;
+    font-size: 12px;
+  }
+  .how__item::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: var(--txt-gold);
+    border-radius: 50%;
+    left: -15px;
+    top: 5px;
+  }
+}
+
+@media screen and (max-width: 508px) {
+  .how__container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    min-height: 750px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+  }
+  .how__list {
+    max-width: 400px;
+    margin-left: -20px;
+  }
+  .how__right {
+    padding-bottom: 20px;
+  }
+  .how__pic {
+    max-width: 80vw;
+  }
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*how media end*/
