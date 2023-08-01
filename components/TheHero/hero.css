@@ -11,8 +11,6 @@
   background-position: center;
   background-size: cover;
 }
-.hero__container {
-}
 
 .hero__title {
   padding-top: 150px;
@@ -22,9 +20,6 @@
 .hero__subtitle {
   max-width: 400px;
   padding-bottom: 50px;
-}
-
-.hero__buttons {
 }
 
 .hero__btn {

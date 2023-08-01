@@ -11,6 +11,7 @@ export default function Home() {
       <main className="main">
         <TheHero />
         <TheBenefits />
+        <TheInspired />
       </main>
     </>
   );

@@ -11,11 +11,6 @@
   color: var(--txt-black);
   background-color: var(--bg-white);
 }
-.benefits__container {
-}
-
-.benefits__title {
-}
 
 .benefits__list {
   display: flex;
@@ -27,9 +22,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.benefits__img {
 }
 
 .benefits__pic {

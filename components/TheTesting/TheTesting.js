@@ -5,7 +5,7 @@ const TheTesting = () => {
   return (
     <section class="testing">
       <div class="testing__container container">
-        <img
+        <Image
           src="../images/testing/testing_white.jpg"
           alt="chocolate"
           class="testing__img"

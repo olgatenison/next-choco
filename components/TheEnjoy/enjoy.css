@@ -7,8 +7,6 @@
 .enjoy {
   background-color: var(--bg-white);
 }
-.enjoy__container {
-}
 
 .enjoy__title {
   padding-bottom: 20px;
@@ -73,9 +71,6 @@
   }
 }
 @media screen and (max-width: 767px) {
-  .enjoy {
-  }
-
   .enjoy__title {
     font-size: 24px;
     padding-bottom: 15px;

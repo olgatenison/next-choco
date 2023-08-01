@@ -11,9 +11,6 @@
   padding-bottom: 50px;
 }
 
-.footer__container {
-}
-
 .footer__second {
   display: flex;
   justify-content: space-between;
@@ -41,9 +38,6 @@
   line-height: 1;
 }
 
-.footer__adress {
-}
-
 .adress {
   display: flex;
   flex-direction: column;
@@ -61,11 +55,6 @@
   font-style: normal;
   margin-bottom: 15px;
 }
-.adress__list {
-}
-
-.adress__item {
-}
 
 .adress__link {
   color: var(--txt-white);
@@ -76,8 +65,6 @@
 .adress__link:active,
 .adress__link:focus {
   color: var(--txt-gold);
-}
-.footer__nav {
 }
 
 .nav {
@@ -100,8 +87,6 @@
 .nav__link:active,
 .nav__link:focus {
   color: #a0761a;
-}
-.footer__wrapper {
 }
 
 .footer__input {
