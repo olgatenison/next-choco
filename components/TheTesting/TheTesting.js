@@ -14,7 +14,7 @@ const TheTesting = () => {
         <div class="testing__wrapper">
           <h2 class="testing__title title">So more about tasting...</h2>
           <p class="testing__txt">
-            But let's start at the very beginning. Not only how we taste
+            But let’s start at the very beginning. Not only how we taste
             chocolate is important, but also in which order. Perhaps you have
             already had the pleasure of a wine tasting at some point in your
             life. As with wine, we start our chocolate tastings with the
@@ -29,7 +29,7 @@ const TheTesting = () => {
             the SchoggiPlättli. Is the surface nice and smooth and does it have
             a nice sheen? Then your sense of touch comes into play. Chocolate
             should feel firm and smooth in your hands. As soon as it has landed
-            in your mouth, it can melt with pleasure. And don't forget your
+            in your mouth, it can melt with pleasure. And don’t forget your
             sense of hearing. Especially if you have a chocolate bar in front of
             you, it should make a nice cracking sound when you break it next to
             your ear. This indicates that the chocolate has been well stored and
@@ -40,7 +40,7 @@ const TheTesting = () => {
             Finally, we dedicate ourselves extensively to our sense of taste.
             Let the products slowly melt in your mouth and use your tongue to
             absorb all the different tastes that the product offers you. This
-            doesn't just mean ingredients like fruits or nuts, but also the
+            doesn’t just mean ingredients like fruits or nuts, but also the
             different flavors you can taste from the chocolate itself. From
             fruity sweet to smoky and tart, the spectrum of cocoa bouquets and
             intensities is huge.
