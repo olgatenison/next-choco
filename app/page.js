@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import { TheHero } from "@/components/TheHero/TheHero";
 import { TheBenefits } from "@/components/TheBenefits/TheBenefits";
 import { TheInspired } from "@/components/TheInspired/TheInspired";
@@ -12,6 +10,7 @@ export default function Home() {
         <TheHero />
         <TheBenefits />
         <TheInspired />
+        <TheEnjoy />
       </main>
     </>
   );

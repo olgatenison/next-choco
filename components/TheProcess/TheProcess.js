@@ -1,7 +1,4 @@
-"use client";
-
 import Image from "next/image";
-
 import "./process.css";
 
 const TheProcess = () => {
@@ -42,10 +39,13 @@ const TheProcess = () => {
           </ul>
         </div>
         <div class="process__left">
-          <img
-            class="process__pic"
-            src="./images/how/how_white.jpg"
+          <Image
+            className="process__pic"
+            src="/TheProcess/process_white.jpg"
             alt="making Chocolate"
+            width={500}
+            height={693}
+            layout="responsive"
           />
         </div>
       </div>

@@ -16,7 +16,7 @@
   position: absolute;
   display: block;
   width: 100%;
-  font-size: 200px;
+  font-size: 180px;
   top: -50px;
 
   font-family: "Marcellus SC", serif;
@@ -96,8 +96,8 @@
     position: absolute;
     display: block;
     width: 100%;
-    font-size: 180px;
-    top: -50px;
+    font-size: 120px;
+    top: -33px;
 
     font-family: "Marcellus SC", serif;
     font-weight: 500;
@@ -124,8 +124,8 @@
     position: absolute;
     display: block;
     width: 100%;
-    font-size: 70px;
-    top: -19px;
+    font-size: 60px;
+    top: -15px;
 
     font-family: "Marcellus SC", serif;
     font-weight: 500;
@@ -138,6 +138,28 @@
   }
 }
 @media screen and (max-width: 380px) {
+  .inspired::after {
+    content: "Inspiration";
+    position: absolute;
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    top: -13px;
+
+    font-family: "Marcellus SC", serif;
+    font-weight: 500;
+
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: #1d1d1d;
+    opacity: 0.6;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 297px) {
+  .inspired::after {
+    display: none;
+  }
 }
 
 /*--------------------------------------*/

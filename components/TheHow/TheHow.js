@@ -1,16 +1,26 @@
+"use client";
+
+import Link from "next/link";
 import Image from "next/image";
 import "./how.css";
 
+import { useRouter } from "next/navigation";
+
 const TheHow = () => {
+  const router = useRouter();
+
   return (
     <>
       <section id="how" class="how">
         <div class="how__container container">
           <div class="how__left">
             <Image
-              class="how__pic"
-              src="./images/how/how_bg.png"
+              className="how__pic" // Заменили class на className
+              src="/TheHow/how_bg.png" // Убедитесь, что путь к изображению указан правильно
               alt="making Chocolate"
+              layout="responsive"
+              width={1500}
+              height={1448}
             />
           </div>
 
@@ -40,7 +50,12 @@ const TheHow = () => {
                 ice molds). Allow to cool and harden.
               </li>
             </ul>
-            <button type="button" class="how__btn btn">
+
+            <button
+              onClick={() => router.push("/shop")}
+              type="button"
+              class="how__btn btn"
+            >
               Buy now
             </button>
           </div>
@@ -49,4 +64,5 @@ const TheHow = () => {
     </>
   );
 };
+
 export { TheHow };

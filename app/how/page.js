@@ -1,3 +1,13 @@
+import { TheHow } from "@/components/TheHow/TheHow";
+import { TheProcess } from "@/components/TheProcess/TheProcess";
+
 export default function How() {
-  return <h1>How</h1>;
+  return (
+    <>
+      <main className="main">
+        <TheHow />
+        <TheProcess />
+      </main>
+    </>
+  );
 }

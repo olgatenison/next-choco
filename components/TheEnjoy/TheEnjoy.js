@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import "./enjoy.css";
 
 const TheEnjoy = () => {
@@ -14,6 +15,15 @@ const TheEnjoy = () => {
             experience unforgettable with selected drinks, individual giveaways
             or a delicious aperitif.
           </p>
+          <Image
+            className="enjoy__img"
+            src="/TheEnjoy/bg_white.jpg"
+            alt="chocolate"
+            width={1000}
+            height={500} // Это также можно указать как опциональное свойство, чтобы оптимизировать загрузку
+            layout="responsive" // Это опциональное свойство указывает, как изображение должно вести себя при загрузке
+            priority // Это также опциональное свойство, чтобы отметить изображение как приоритетное для предварительной загрузки (lazy loading)
+          />
         </div>
       </div>
     </section>

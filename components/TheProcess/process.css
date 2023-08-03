@@ -15,7 +15,9 @@
   padding-bottom: 60px;
   padding-top: 50px;
 }
-
+.process__right {
+  max-width: 50%;
+}
 .process__title {
   font-size: 34px;
   padding-bottom: 30px;
@@ -69,6 +71,9 @@
   .process__container {
     display: flex;
     flex-direction: column;
+  }
+  .process__right {
+    max-width: 100%;
   }
   .process__pic {
     max-width: 70vw;
