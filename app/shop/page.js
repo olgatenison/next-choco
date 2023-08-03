@@ -1,13 +1,13 @@
-import Head from "next/head";
+import { TheReviews } from "@/components/TheReviews/TheReviews";
+import { TheTesting } from "@/components/TheTesting/TheTesting";
 
 export default function Shop() {
   return (
     <>
-      <Head>
-        <title>shop</title>
-      </Head>
-
-      <h1>shop</h1>
+      <main className="main">
+        <TheReviews />
+        <TheTesting />
+      </main>
     </>
   );
 }

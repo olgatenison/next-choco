@@ -1,8 +1,13 @@
-import { TheHero } from "@/components/TheHero/TheHero";
-import { TheBenefits } from "@/components/TheBenefits/TheBenefits";
-import { TheInspired } from "@/components/TheInspired/TheInspired";
-import { TheEnjoy } from "@/components/TheEnjoy/TheEnjoy";
+import { TheReviews } from "@/components/TheReviews/TheReviews";
+import { TheTesting } from "@/components/TheTesting/TheTesting";
 
 export default function Reviews() {
-  return <></>;
+  return (
+    <>
+      <main className="main">
+        <TheReviews />
+        <TheTesting />
+      </main>
+    </>
+  );
 }

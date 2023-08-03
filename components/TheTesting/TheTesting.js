@@ -6,9 +6,11 @@ const TheTesting = () => {
     <section class="testing">
       <div class="testing__container container">
         <Image
-          src="../images/testing/testing_white.jpg"
+          src="/TheTesting/testing_white.jpg"
           alt="chocolate"
-          class="testing__img"
+          className="testing__img"
+          height={300}
+          width={919}
         />
 
         <div class="testing__wrapper">

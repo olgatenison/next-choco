@@ -25,7 +25,7 @@
   width: 280px;
   height: 204px;
   display: block;
-  background-image: url("../images/reviews/reviewes_right.png");
+  background-image: url("/TheReviews/reviewes_right.png");
   background-repeat: no-repeat;
   background-size: cover;
   top: -90px;
@@ -38,7 +38,7 @@
   width: 280px;
   height: 239px;
   display: block;
-  background-image: url("../images/reviews/reviewes_left.png");
+  background-image: url("/TheReviews/reviewes_left.png");
   background-repeat: no-repeat;
   background-size: cover;
   top: 450px;
@@ -111,7 +111,7 @@
     width: 280px;
     height: 204px;
     display: block;
-    background-image: url("../images/reviews/reviewes_right.png");
+    background-image: url("/TheReviews/reviewes_right.png");
     background-repeat: no-repeat;
     background-size: cover;
     top: -90px;
@@ -124,7 +124,7 @@
     width: 280px;
     height: 239px;
     display: block;
-    background-image: url("../images/reviews/reviewes_left.png");
+    background-image: url("/TheReviews/reviewes_left.png");
     background-repeat: no-repeat;
     background-size: cover;
     top: 100px;
@@ -138,7 +138,7 @@
     width: 280px;
     height: 204px;
     display: block;
-    background-image: url("../images/reviews/reviewes_right.png");
+    background-image: url("/TheReviews/reviewes_right.png");
     background-repeat: no-repeat;
     background-size: cover;
     top: -90px;
@@ -151,7 +151,7 @@
     width: 280px;
     height: 239px;
     display: block;
-    background-image: url("../images/reviews/reviewes_left.png");
+    background-image: url("/TheReviews/reviewes_left.png");
     background-repeat: no-repeat;
     background-size: cover;
     top: 100px;
