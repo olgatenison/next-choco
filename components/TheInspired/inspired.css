@@ -10,13 +10,14 @@
 
   background-color: #2f2f2f;
   position: relative;
+  overflow: hidden;
 }
 .inspired::after {
   content: "Inspiration";
   position: absolute;
   display: block;
   width: 100%;
-  font-size: 180px;
+  font-size: 200px;
   top: -50px;
 
   font-family: "Marcellus SC", serif;

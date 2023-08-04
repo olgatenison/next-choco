@@ -3,6 +3,7 @@
 import Image from "next/image";
 
 import "./reviews.css";
+import Review from "@/components/TheReviews/Review/Review";
 import { useRouter } from "next/navigation";
 
 const TheReviews = () => {
@@ -19,26 +20,11 @@ const TheReviews = () => {
           for all our senses.
         </p>
 
-        <div class="reviews__wrapper">
-          <Image
-            className="reviews__photo"
-            src="/TheReviews/Photo/photo01.png"
-            alt="reviews__photo"
-            width={100}
-            height={100}
-          />
-          <div class="reviews__content">
-            <h3 class="reviews__name">John Smith</h3>
-            <p class="reviews__txt">
-              I want to send all chocolate lovers to unusual novelties produced
-              by the &#34Loretta’s Choco&#34. Here you will find delicacies for
-              every taste. We have repeatedly asked for help in preparing gifts
-              for managers. All gifts were made carefully, on time and most
-              importantly, all our wishes were taken into account! Thank you
-              &#34Loretta’s Choco&#34 and we wish you prosperity in our city.
-            </p>
-          </div>
-        </div>
+        <Review
+          name="John Smith"
+          text="I want to send all chocolate lovers to unusual novelties produced by the 'Loretta’s Choco'. Here you will find delicacies for every taste. We have repeatedly asked for help in preparing gifts for managers. All gifts were made carefully, on time and most importantly, all our wishes were taken into account! Thank you 'Loretta’s Choco' and we wish you prosperity in our city."
+          photo="/TheReviews/Photo/photo01.png"
+        />
       </div>
     </section>
   );

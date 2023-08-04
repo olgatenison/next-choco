@@ -1,0 +1,166 @@
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+.shop {
+  background-color: #fff;
+  padding-top: 90px;
+  padding-bottom: 290px;
+  background-image: url("/TheShop/shop_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+}
+
+.shop__title {
+  text-align: center;
+  padding-bottom: 60px;
+  letter-spacing: normal;
+}
+.shop__slogan {
+  padding-top: 150px;
+}
+
+.shop__list {
+  display: grid;
+  gap: 70px 30px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.shop__item {
+  border: var(--txt-gold) 1px solid;
+  color: var(--txt-black);
+  position: relative;
+}
+.shop__img {
+  max-width: 260px;
+}
+.shop__name {
+  font-family: "Marcellus SC", serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 20px;
+  padding-bottom: 0px;
+  color: var(--txt-gold);
+
+  text-align: center;
+}
+.shop__txt {
+  padding: 20px;
+}
+.shop__help {
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.shop__price {
+  font-family: "Marcellus SC", serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--txt-gold);
+}
+.shop__grm {
+  padding-left: 30px;
+}
+.shop__btn {
+  position: absolute;
+  background-color: #fff;
+  color: var(--txt-gold);
+  font-weight: 500;
+  font-size: 24px;
+  bottom: -24px;
+  left: 85px;
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*testing stsyle end*/
+/*testing media start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+@media screen and (max-width: 1200px) {
+  .shop {
+    background-color: #fff;
+    padding-top: 90px;
+    padding-bottom: 190px;
+    background-image: url("/TheShop/shop_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+  }
+  .shop__list {
+    display: grid;
+    gap: 70px 30px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .shop__slogan {
+    padding-top: 100px;
+    line-height: 1;
+  }
+  .shop__img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .shop {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    background-image: url("/TheShop/shop_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+  }
+  .shop__slogan {
+    font-size: 24px;
+    padding-top: 60px;
+    max-width: 500px;
+  }
+  .shop__title {
+    font-size: 24px;
+    padding-bottom: 30px;
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 767px) {
+  .shop__list {
+    display: grid;
+    gap: 70px 30px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .shop__name {
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 508px) {
+  .shop__list {
+    display: grid;
+    gap: 70px 30px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .shop__btn {
+    position: absolute;
+    background-color: #fff;
+    color: var(--txt-gold);
+    font-weight: 500;
+    font-size: 24px;
+    bottom: -24px;
+    left: 20px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .shop {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+}
