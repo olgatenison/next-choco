@@ -3,8 +3,8 @@ import "./testing.css";
 
 const TheTesting = () => {
   return (
-    <section class="testing">
-      <div class="testing__container container">
+    <section className="testing">
+      <div className="testing__container container">
         <Image
           src="/TheTesting/testing_white.jpg"
           alt="chocolate"
@@ -13,9 +13,9 @@ const TheTesting = () => {
           width={919}
         />
 
-        <div class="testing__wrapper">
-          <h2 class="testing__title title">So more about tasting...</h2>
-          <p class="testing__txt">
+        <div className="testing__wrapper">
+          <h2 className="testing__title title">So more about tasting...</h2>
+          <p className="testing__txt">
             But let’s start at the very beginning. Not only how we taste
             chocolate is important, but also in which order. Perhaps you have
             already had the pleasure of a wine tasting at some point in your
@@ -25,7 +25,7 @@ const TheTesting = () => {
             intensity would drown out the finer notes of the light varieties and
             you would no longer be able to taste the multi-layered aromas.
           </p>
-          <p class="testing__txt">
+          <p className="testing__txt">
             When it comes to the actual tasting, we always use our five senses.
             We start with our eyes. Look at the chocolate bar, the praline or
             the SchoggiPlättli. Is the surface nice and smooth and does it have

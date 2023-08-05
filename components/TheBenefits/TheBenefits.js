@@ -3,14 +3,14 @@ import "./benefits.css";
 
 const TheBenefits = () => {
   return (
-    <section class="benefits">
-      <div class="benefits__container container">
-        <h2 hidden class="benefits__title">
+    <section className="benefits">
+      <div className="benefits__container container">
+        <h2 hidden className="benefits__title">
           Benefits of Loretta’s Choco
         </h2>
-        <ul class="benefits__list">
-          <li class="benefits__item">
-            <div class="benefits__pic">
+        <ul className="benefits__list">
+          <li className="benefits__item">
+            <div className="benefits__pic">
               <Image
                 className="benefits__img"
                 src="/TheBenefits/01.png"
@@ -20,8 +20,8 @@ const TheBenefits = () => {
               />
             </div>
             <div>
-              <h3 class="benefits__subtitle">Unsurpassed taste</h3>
-              <p class="benefits__txt">
+              <h3 className="benefits__subtitle">Unsurpassed taste</h3>
+              <p className="benefits__txt">
                 Crafted with the finest quality cocoa beans and a dedication to
                 perfection, each bite is a decadent experience that simply
                 cannot be matched. Savor the richness and complexity of our
@@ -29,8 +29,8 @@ const TheBenefits = () => {
               </p>
             </div>
           </li>
-          <li class="benefits__item">
-            <div class="benefits__pic">
+          <li className="benefits__item">
+            <div className="benefits__pic">
               <Image
                 className="benefits__img"
                 src="/TheBenefits/02.png"
@@ -40,8 +40,8 @@ const TheBenefits = () => {
               />
             </div>
             <div>
-              <h3 class="benefits__subtitle">Affordable price</h3>
-              <p class="benefits__txt">
+              <h3 className="benefits__subtitle">Affordable price</h3>
+              <p className="benefits__txt">
                 Indulge in high-quality chocolate without breaking the bank with
                 Simply Chocolate’s s election of affordable treats. Enjoy
                 mouth-watering truffles and velvety chocolate bars without
@@ -50,8 +50,8 @@ const TheBenefits = () => {
               </p>
             </div>
           </li>
-          <li class="benefits__item">
-            <div class="benefits__pic">
+          <li className="benefits__item">
+            <div className="benefits__pic">
               <Image
                 className="benefits__img"
                 src="/TheBenefits/03.png"
@@ -61,8 +61,8 @@ const TheBenefits = () => {
               />
             </div>
             <div>
-              <h3 class="benefits__subtitle">Own production</h3>
-              <p class="benefits__txt">
+              <h3 className="benefits__subtitle">Own production</h3>
+              <p className="benefits__txt">
                 We take pride in our own production process, ensuring that every
                 step is carefully crafted to perfection. From selecting the
                 finest ingredients to handcrafting each piece, our attention to

@@ -3,17 +3,17 @@ import "./process.css";
 
 const TheProcess = () => {
   return (
-    <section class="process">
-      <div class="process__container container">
-        <div class="process__right">
-          <ul class="process__list">
-            <li class="process__item">
-              <h3 class="process__title title">Chocolate making process</h3>
-              <p class="process__txt">
+    <section className="process">
+      <div className="process__container container">
+        <div className="process__right">
+          <ul className="process__list">
+            <li className="process__item">
+              <h3 className="process__title title">Chocolate making process</h3>
+              <p className="process__txt">
                 Try our chocolates today and discover the perfect balance of
                 flavor
               </p>
-              <p class="process__txt">
+              <p className="process__txt">
                 Our beans, which really are a true gift of nature, originate
                 from five different countries. If we had to put the character of
                 the beans into one word, we would say they are all rich. In a
@@ -23,12 +23,12 @@ const TheProcess = () => {
                 of São Tomé.
               </p>
             </li>
-            <li class="process__item">
-              <h3 class="process__title title">Ingredients</h3>
-              <p class="process__txt">
+            <li className="process__item">
+              <h3 className="process__title title">Ingredients</h3>
+              <p className="process__txt">
                 Quality raw ingredients are the key of our success.
               </p>
-              <p class="process__txt">
+              <p className="process__txt">
                 Most of the cocoa beans we use are organic. Also cocoa butter,
                 cane sugar, milk powder, berries, spruce sprouts, birch sap, etc
                 are all organic. Wherever possible we use local ingredients.
@@ -38,7 +38,7 @@ const TheProcess = () => {
             </li>
           </ul>
         </div>
-        <div class="process__left">
+        <div className="process__left">
           <Image
             className="process__pic"
             src="/TheProcess/process_white.jpg"

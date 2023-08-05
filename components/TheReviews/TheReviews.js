@@ -10,10 +10,10 @@ const TheReviews = () => {
   const router = useRouter();
 
   return (
-    <section class="reviews" id="#reviews">
-      <div class="reviews__container container">
-        <h2 class="reviews__title title">Tasting with all five senses</h2>
-        <p class="reviews__subtitle">
+    <section className="reviews" id="#reviews">
+      <div className="reviews__container container">
+        <h2 className="reviews__title title">Tasting with all five senses</h2>
+        <p className="reviews__subtitle">
           We are very sensitive to your feedback, we appreciate your every
           smile, we dream that you would feel the moments of joy while trying
           our chocolate. we believe that tasting our chocolate should be a feast

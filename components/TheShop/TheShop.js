@@ -9,12 +9,14 @@ const TheShop = () => {
   const router = useRouter();
 
   return (
-    <section class="shop">
-      <div class="shop__container container">
-        <h2 class="shop__title title">Find out about our exclusive offer</h2>
+    <section className="shop">
+      <div className="shop__container container">
+        <h2 className="shop__title title">
+          Find out about our exclusive offer
+        </h2>
 
-        <div class="shop__wrapper">
-          <ul class="shop__list">
+        <div className="shop__wrapper">
+          <ul className="shop__list">
             <ShopCard
               imgSrc="/TheShop/ShopCard/item_01.jpg"
               name="Dragée Box Hazelnut"
@@ -81,7 +83,7 @@ const TheShop = () => {
           </ul>
         </div>
 
-        <h4 class="shop__slogan title">
+        <h4 className="shop__slogan title">
           Be inspired by a selection of Handmade, bespoke creations from
           Loretta’s Choco.
         </h4>

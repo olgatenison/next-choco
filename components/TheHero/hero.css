@@ -6,7 +6,7 @@
 
 .hero {
   height: 100vh;
-  background-image: url(./bg_hero.jpg);
+  background-image: url(/TheHero/bg_hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

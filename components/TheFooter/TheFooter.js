@@ -3,59 +3,62 @@ import "./footer.css";
 
 const TheFooter = () => {
   return (
-    <footer class="footer">
-      <div class="footer__container container">
-        <div class="footer__first">
-          <h2 class="footer__title title">
+    <footer className="footer">
+      <div className="footer__container container">
+        <div className="footer__first">
+          <h2 className="footer__title title">
             <span>Chocolate</span> a delicious cure for a bad day
           </h2>
 
-          <address class="footer__adress adress">
-            <p class="adress__subtitle">Contact us:</p>
-            <ul class="adress__list">
-              <li class="adress__item">
-                <Link class="adress__link" href="tel:+380684439426">
+          <address className="footer__adress adress">
+            <p className="adress__subtitle">Contact us:</p>
+            <ul className="adress__list">
+              <li className="adress__item">
+                <Link className="adress__link" href="tel:+380684439426">
                   +380 (68) 443-94-26
                 </Link>
               </li>
-              <li class="adress__item">
-                <Link class="adress__link" href="mailto:simplychoc@gmail.com">
+              <li className="adress__item">
+                <Link
+                  className="adress__link"
+                  href="mailto:simplychoc@gmail.com"
+                >
                   simplychoc@gmail.com
                 </Link>
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer__second">
-          <ul class="footer__nav nav">
-            <li class="nav__item">
-              <Link class="nav__link" href="/">
+        <div className="footer__second">
+          <ul className="footer__nav nav">
+            <li className="nav__item">
+              <Link className="nav__link" href="/">
                 Home
               </Link>
             </li>
-            <li class="nav__item">
-              <Link class="nav__link" href="/how">
+            <li className="nav__item">
+              <Link className="nav__link" href="/how">
                 How it’s made?
               </Link>
             </li>
-            <li class="nav__item">
-              <Link class="nav__link" href="/reviews">
+            <li className="nav__item">
+              <Link className="nav__link" href="/reviews">
                 Chocolate is loved
               </Link>
             </li>
-            <li class="nav__item">
-              <Link class="nav__link" href="/shop">
+            <li className="nav__item">
+              <Link className="nav__link" href="/shop">
                 Shop
               </Link>
             </li>
           </ul>
-          <div class="footer__wrapper">
+          <div className="footer__wrapper">
             <input
-              class="footer__input"
+              className="footer__input"
               type="email"
               placeholder="Enter your email"
             />
-            <button class="footer__btn btn" type="submit">
+            <button className="footer__btn btn" type="submit">
               Subscribe
             </button>
           </div>
