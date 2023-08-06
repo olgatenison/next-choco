@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-
 import "./reviews.css";
 import Review from "@/components/TheReviews/Review/Review";
 import { useRouter } from "next/navigation";

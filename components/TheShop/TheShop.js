@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import ShopCard from "@/components/TheShop/ShopCard/ShopCard";
 import { useRouter } from "next/navigation";
 import "./shop.css";

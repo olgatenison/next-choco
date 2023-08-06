@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import "./inspired.css";
 import { useRouter } from "next/navigation";
 

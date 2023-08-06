@@ -33,7 +33,7 @@
   position: relative;
 }
 .shop__img {
-  max-width: 260px;
+  width: 100%;
 }
 .shop__name {
   font-family: "Marcellus SC", serif;
