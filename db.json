@@ -1,0 +1,100 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "imgSrc": "/TheShop/ShopCard/item_01.jpg",
+      "name": "Dragée Box Hazelnut",
+      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
+      "price": "10 €",
+      "weight": "180 grm"
+    },
+    {
+      "id": 2,
+      "imgSrc": "/TheShop/ShopCard/item_02.jpg",
+      "name": "Milk Chocolate",
+      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
+      "price": "100 €",
+      "weight": "120 grm"
+    },
+    {
+      "id": 3,
+      "imgSrc": "/TheShop/ShopCard/item_03.jpg",
+      "name": "Darck Chocolate",
+      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
+      "price": "13 €",
+      "weight": "150 grm"
+    },
+    {
+      "id": 4,
+      "imgSrc": "/TheShop/ShopCard/item_04.jpg",
+      "name": "Fruits Chocolate",
+      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
+      "price": "50 €",
+      "weight": "160 grm"
+    },
+    {
+      "id": 5,
+      "imgSrc": "/TheShop/ShopCard/item_04.jpg",
+      "name": "Chocolate",
+      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
+      "price": "60 €",
+      "weight": "180 grm"
+    },
+    {
+      "id": 6,
+      "imgSrc": "/TheShop/ShopCard/item_06.jpg",
+      "name": "Chocolate Extra",
+      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
+      "price": "15 €",
+      "weight": "100 grm"
+    },
+    {
+      "id": 7,
+      "imgSrc": "/TheShop/ShopCard/item_07.jpg",
+      "name": "Chocolate Extra Darck",
+      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
+      "price": "10 €",
+      "weight": "105 grm"
+    },
+    {
+      "id": 8,
+      "imgSrc": "/TheShop/ShopCard/item_08.jpg",
+      "name": "Chocolate Sweet Milk",
+      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
+      "price": "12 €",
+      "weight": "105 grm"
+    },
+    {
+      "id": 9,
+      "imgSrc": "/TheShop/ShopCard/item_09.jpg",
+      "name": "Candy Chocolate",
+      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
+      "price": "20 €",
+      "weight": "150 grm"
+    },
+    {
+      "id": 10,
+      "imgSrc": "/TheShop/ShopCard/item_10.jpg",
+      "name": "Creemy Chocolate",
+      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
+      "price": "21,5 €",
+      "weight": "120 grm"
+    },
+    {
+      "id": 11,
+      "imgSrc": "/TheShop/ShopCard/item_11.jpg",
+      "name": "Mint Chocolate",
+      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
+      "price": "22,5 €",
+      "weight": "120 grm"
+    },
+    {
+      "id": 12,
+      "imgSrc": "/TheShop/ShopCard/item_12.jpg",
+      "name": "Nuts Chocolate",
+      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
+      "price": "18 €",
+      "weight": "120 grm"
+    }
+  ]
+}
