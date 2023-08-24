@@ -14,12 +14,13 @@ const TheHow = () => {
         <div className="how__container container">
           <div className="how__left">
             <Image
-              className="how__pic" // Заменили class на className
-              src="/TheHow/how_bg.png" // Убедитесь, что путь к изображению указан правильно
+              className="how__pic"
+              src="/TheHow/how_bg.png"
               alt="making Chocolate"
-              layout="responsive"
               width={1500}
               height={1448}
+              sizes="(max-width: 640px) 100vw, (max-width: 750px) 70vw, 750px" // Оптимальні розміри для вашого дизайну
+              style={{ objectFit: "cover", width: "100%", height: "100%" }} // Стиль зображення
             />
           </div>
 
