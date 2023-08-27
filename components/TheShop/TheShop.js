@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import ShopCard from "@/components/TheShop/ShopCard/ShopCard";
 import { useRouter } from "next/navigation";
@@ -16,7 +16,7 @@ const TheShop = () => {
 
         <div className="shop__wrapper">
           <ul className="shop__list">
-            <ShopCard
+            {/* <ShopCard
               imgSrc="/TheShop/ShopCard/item_01.jpg"
               name="Dragée Box Hazelnut"
               description="Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar."
@@ -78,7 +78,7 @@ const TheShop = () => {
               description="Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar."
               price="10 €"
               weight="180 grm"
-            />
+            /> */}
           </ul>
         </div>
 

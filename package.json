@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "mock": "json-server -w db.json -p 3000 -d 450"
+    "mock": "json-server -w db.json -p 4200 -d 450"
   },
   "dependencies": {
     "autoprefixer": "10.4.14",

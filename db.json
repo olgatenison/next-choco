@@ -11,89 +11,121 @@
     {
       "id": 2,
       "imgSrc": "/TheShop/ShopCard/item_02.jpg",
-      "name": "Milk Chocolate",
-      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
-      "price": "100 €",
-      "weight": "120 grm"
+      "name": "Raspberry Truffle Delight",
+      "description": "Indulge in the delightful combination of luscious raspberry puree infused with smooth milk chocolate ganache, enrobed in a rich dark chocolate shell.",
+      "price": "8 €",
+      "weight": "150 grm"
     },
     {
       "id": 3,
       "imgSrc": "/TheShop/ShopCard/item_03.jpg",
-      "name": "Darck Chocolate",
-      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
-      "price": "13 €",
-      "weight": "150 grm"
+      "name": "Salted Caramel Praline",
+      "description": "Experience the perfect balance of sweet and salty with our artisanal salted caramel praline, made with creamy caramel and encased in velvety milk chocolate.",
+      "price": "12 €",
+      "weight": "200 grm"
     },
     {
       "id": 4,
       "imgSrc": "/TheShop/ShopCard/item_04.jpg",
-      "name": "Fruits Chocolate",
-      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
-      "price": "50 €",
-      "weight": "160 grm"
+      "name": "Dark Chocolate Espresso Beans",
+      "description": "Awaken your senses with the intense flavor of dark chocolate enrobing premium roasted espresso beans, creating a truly indulgent treat.",
+      "price": "9 €",
+      "weight": "120 grm"
     },
     {
       "id": 5,
-      "imgSrc": "/TheShop/ShopCard/item_04.jpg",
-      "name": "Chocolate",
-      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
-      "price": "60 €",
-      "weight": "180 grm"
+      "imgSrc": "/TheShop/ShopCard/item_05.jpg",
+      "name": "White Chocolate Passionfruit Bonbon",
+      "description": "Tantalize your taste buds with the exotic blend of white chocolate ganache infused with tangy passionfruit essence, enclosed in a delicate white chocolate shell.",
+      "price": "7.5 €",
+      "weight": "140 grm"
     },
     {
       "id": 6,
       "imgSrc": "/TheShop/ShopCard/item_06.jpg",
-      "name": "Chocolate Extra",
-      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
-      "price": "15 €",
-      "weight": "100 grm"
+      "name": "Mint Chocolate Bliss",
+      "description": "Refreshingly cool mint-flavored dark chocolate ganache meets the velvety embrace of premium milk chocolate, delivering a blissful confectionery experience.",
+      "price": "10.5 €",
+      "weight": "160 grm"
     },
     {
       "id": 7,
       "imgSrc": "/TheShop/ShopCard/item_07.jpg",
-      "name": "Chocolate Extra Darck",
-      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
-      "price": "10 €",
-      "weight": "105 grm"
+      "name": "Almond Marzipan Delight",
+      "description": "Savor the timeless delight of almond marzipan coated in a thin layer of bittersweet chocolate, crafted with love and tradition.",
+      "price": "11 €",
+      "weight": "175 grm"
     },
     {
       "id": 8,
       "imgSrc": "/TheShop/ShopCard/item_08.jpg",
-      "name": "Chocolate Sweet Milk",
-      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
-      "price": "12 €",
-      "weight": "105 grm"
+      "name": "Orange Zest Chocolate Bar",
+      "description": "Embark on a zesty journey with our orange-infused dark chocolate bar, where citrusy notes dance harmoniously with deep cocoa flavors.",
+      "price": "6.5 €",
+      "weight": "100 grm"
     },
     {
       "id": 9,
       "imgSrc": "/TheShop/ShopCard/item_09.jpg",
-      "name": "Candy Chocolate",
-      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
-      "price": "20 €",
-      "weight": "150 grm"
+      "name": "Toffee Crunch Milk Chocolate",
+      "description": "Crunchy toffee bits nestled in velvety milk chocolate create a symphony of textures and tastes that will satisfy your sweet cravings.",
+      "price": "9.5 €",
+      "weight": "130 grm"
     },
     {
       "id": 10,
       "imgSrc": "/TheShop/ShopCard/item_10.jpg",
-      "name": "Creemy Chocolate",
-      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
-      "price": "21,5 €",
-      "weight": "120 grm"
+      "name": "Chili Infused Dark Chocolate",
+      "description": "Ignite your palate with the intriguing blend of spicy chili flakes embraced by the deep intensity of dark chocolate, a daring and delectable experience.",
+      "price": "8.5 €",
+      "weight": "110 grm"
     },
     {
       "id": 11,
       "imgSrc": "/TheShop/ShopCard/item_11.jpg",
-      "name": "Mint Chocolate",
-      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
-      "price": "22,5 €",
-      "weight": "120 grm"
+      "name": "Hazelnut Praline Milk Chocolate",
+      "description": "Indulge in the creamy goodness of hazelnut praline wrapped in smooth milk chocolate for a delightful taste experience.",
+      "price": "7.5 €",
+      "weight": "100 grm"
     },
     {
       "id": 12,
       "imgSrc": "/TheShop/ShopCard/item_12.jpg",
-      "name": "Nuts Chocolate",
-      "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
-      "price": "18 €",
+      "name": "Raspberry White Chocolate",
+      "description": "Experience the exquisite harmony of tart raspberries and sweet white chocolate that will captivate your senses with every bite.",
+      "price": "6.5 €",
+      "weight": "90 grm"
+    },
+    {
+      "id": 13,
+      "imgSrc": "/TheShop/ShopCard/item_13.jpg",
+      "name": "Mint Chocolate Chip",
+      "description": "Enjoy the refreshing combination of minty freshness and rich chocolate chips in this cool and satisfying treat.",
+      "price": "8.0 €",
+      "weight": "120 grm"
+    },
+    {
+      "id": 14,
+      "imgSrc": "/TheShop/ShopCard/item_14.jpg",
+      "name": "Salted Caramel Dark Chocolate",
+      "description": "Delight in the perfect balance of sweet and salty with luscious caramel enrobed in decadent dark chocolate.",
+      "price": "9.0 €",
+      "weight": "110 grm"
+    },
+    {
+      "id": 15,
+      "imgSrc": "/TheShop/ShopCard/item_15.jpg",
+      "name": "Almond Crunch White Chocolate",
+      "description": "Savor the satisfying crunch of almonds enveloped in velvety white chocolate for a delightful taste sensation.",
+      "price": "7.5 €",
+      "weight": "100 grm"
+    },
+    {
+      "id": 16,
+      "imgSrc": "/TheShop/ShopCard/item_16.jpg",
+      "name": "Orange Zest Dark Chocolate",
+      "description": "Elevate your taste buds with the zesty infusion of orange peel and rich dark chocolate, a bold and citrusy delight.",
+      "price": "8.5 €",
       "weight": "120 grm"
     }
   ]
