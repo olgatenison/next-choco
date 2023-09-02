@@ -1,0 +1,46 @@
+{
+  "reviews": [
+    {
+      "id": "0001",
+      "name": "John Smith",
+      "photo": "/TheReviews/Photo/photo01.png",
+      "text": "I want to send all chocolate lovers to unusual novelties produced by the 'Loretta’s Choco'. Here you will find delicacies for every taste. We have repeatedly asked for help in preparing gifts for managers. All gifts were made carefully, on time and most importantly, all our wishes were taken into account! Thank you 'Loretta’s Choco' and we wish you prosperity in our city."
+    },
+    {
+      "id": "0002",
+      "name": "Alice Johnson",
+      "photo": "/TheReviews/Photo/photo02.png",
+      "text": "I've never tasted chocolate this heavenly before! 'Loretta’s Choco' truly knows how to make a chocoholic like me happy. Their chocolates are pure magic!"
+    },
+    {
+      "id": "0003",
+      "name": "David Brown",
+      "photo": "/TheReviews/Photo/photo03.png",
+      "text": "The chocolates from 'Loretta’s Choco' are a masterpiece. Each bite is like a journey to a world of sweetness. I can't get enough of them!"
+    },
+    {
+      "id": "0004",
+      "name": "Emily Davis",
+      "photo": "/TheReviews/Photo/photo01.png",
+      "text": "If you're looking for the perfect gift or a treat for yourself, look no further than 'Loretta’s Choco.' Their chocolates and sweets are a slice of heaven."
+    },
+    {
+      "id": "0005",
+      "name": "Michael White",
+      "photo": "/TheReviews/Photo/photo02.png",
+      "text": "I'm a self-proclaimed chocolate snob, and 'Loretta’s Choco' has won me over completely. Their attention to detail and flavor is unmatched."
+    },
+    {
+      "id": "0006",
+      "name": "Olivia Robinson",
+      "photo": "/TheReviews/Photo/photo03.png",
+      "text": "The quality of chocolate and confectionery at 'Loretta’s Choco' is exceptional. I've never had chocolates that melt in your mouth like these do."
+    },
+    {
+      "id": "0007",
+      "name": "William Harris",
+      "photo": "/TheReviews/Photo/photo01.png",
+      "text": "'Loretta’s Choco' is a hidden gem for chocolate lovers. Their range of flavors and textures will tantalize your taste buds. Highly recommended!"
+    }
+  ]
+}

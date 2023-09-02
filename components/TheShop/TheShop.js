@@ -3,9 +3,9 @@
 import ShopCard from "@/components/TheShop/ShopCard/ShopCard";
 import { useRouter } from "next/navigation";
 import "./shop.css";
-
+var mydata = require("../../db.json");
 const TheShop = () => {
-  const router = useRouter();
+  // const router = useRouter();
 
   return (
     <section className="shop">

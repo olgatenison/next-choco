@@ -1,14 +1,15 @@
 "use client";
-
 import "./reviews.css";
 import Review from "@/components/TheReviews/Review/Review";
-import { useRouter } from "next/navigation";
+import { useState } from "react";
+
+var mydata = require("../../reviews.json");
 
 const TheReviews = () => {
-  const router = useRouter();
-
   return (
-    <section className="reviews" id="#reviews">
+    <section className="reviews" id="reviews">
+      {" "}
+      {/* Виправлено id="#reviews" на id="reviews" */}
       <div className="reviews__container container">
         <h2 className="reviews__title title">Tasting with all five senses</h2>
         <p className="reviews__subtitle">
@@ -18,11 +19,10 @@ const TheReviews = () => {
           for all our senses.
         </p>
 
-        <Review
-          name="John Smith"
-          text="I want to send all chocolate lovers to unusual novelties produced by the 'Loretta’s Choco'. Here you will find delicacies for every taste. We have repeatedly asked for help in preparing gifts for managers. All gifts were made carefully, on time and most importantly, all our wishes were taken into account! Thank you 'Loretta’s Choco' and we wish you prosperity in our city."
-          photo="/TheReviews/Photo/photo01.png"
-        />
+        {/* Передайте дані в компонент Review */}
+        {mydata.reviews.map((oneReview) => (
+          <Review key={oneReview.id} reviewsCard={oneReview} />
+        ))}
       </div>
     </section>
   );
