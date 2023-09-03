@@ -1,9 +1,10 @@
 // "use client";
+import "./shop.css";
+import { useRouter } from "next/navigation";
 
 import ShopCard from "@/components/TheShop/ShopCard/ShopCard";
-import { useRouter } from "next/navigation";
-import "./shop.css";
-var mydata = require("../../db.json");
+var mydata = require("../../data/products.json");
+
 const TheShop = () => {
   // const router = useRouter();
 
@@ -16,6 +17,13 @@ const TheShop = () => {
 
         <div className="shop__wrapper">
           <ul className="shop__list">
+            {mydata.products.map(
+              (
+                product // Виклик .map() для mydata.products
+              ) => (
+                <ShopCard key={product.id} product={product} /> // Зверніть увагу на product
+              )
+            )}
             {/* <ShopCard
               imgSrc="/TheShop/ShopCard/item_01.jpg"
               name="Dragée Box Hazelnut"
@@ -23,62 +31,7 @@ const TheShop = () => {
               price="10 €"
               weight="180 grm"
             />
-            <ShopCard
-              imgSrc="/TheShop/ShopCard/item_02.jpg"
-              name="Dragée Box Hazelnut"
-              description="Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar."
-              price="12 €"
-              weight="180 grm"
-            />
-            <ShopCard
-              imgSrc="/TheShop/ShopCard/item_03.jpg"
-              name="Dragée Box Hazelnut"
-              description="Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar."
-              price="1 €"
-              weight="200 grm"
-            />
-            <ShopCard
-              imgSrc="/TheShop/ShopCard/item_04.jpg"
-              name="Dragée Box Hazelnut"
-              description="Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar."
-              price="80 €"
-              weight="300 grm"
-            />
-            <ShopCard
-              imgSrc="/TheShop/ShopCard/item_05.jpg"
-              name="Dragée Box Hazelnut"
-              description="Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar."
-              price="1220 €"
-              weight="120 grm"
-            />
-            <ShopCard
-              imgSrc="/TheShop/ShopCard/item_06.jpg"
-              name="Dragée Box Hazelnut"
-              description="Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar."
-              price="18 €"
-              weight="100 grm"
-            />
-            <ShopCard
-              imgSrc="/TheShop/ShopCard/item_07.jpg"
-              name="Dragée Box Hazelnut"
-              description="Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar."
-              price="30 €"
-              weight="250 grm"
-            />
-            <ShopCard
-              imgSrc="/TheShop/ShopCard/item_08.jpg"
-              name="Dragée Box Hazelnut"
-              description="Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar."
-              price="122 €"
-              weight="190 grm"
-            />
-            <ShopCard
-              imgSrc="/TheShop/ShopCard/item_09.jpg"
-              name="Dragée Box Hazelnut"
-              description="Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar."
-              price="10 €"
-              weight="180 grm"
-            /> */}
+          */}
           </ul>
         </div>
 

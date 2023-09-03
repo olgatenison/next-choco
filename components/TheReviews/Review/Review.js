@@ -1,26 +1,23 @@
 import Image from "next/image";
-import { useState } from "react";
 
-const Review = ({ id, photo, name, text }) => {
+export default function Review({ reviews }) {
   return (
     <div>
-      {reviewsCard.map((review) => (
-        <div className="reviews__wrapper" key={id}>
+      {reviews.map((review) => (
+        <div className="reviews__wrapper" key={review.id}>
           <Image
             className="reviews__photo"
-            src={photo}
-            alt={name}
+            src={review.photo}
+            alt={review.name}
             width={100}
             height={100}
           />
           <div className="reviews__content">
-            <h3 className="reviews__name">{name}</h3>
-            <p className="reviews__txt">{text}</p>
+            <h3 className="reviews__name">{review.name}</h3>
+            <p className="reviews__txt">{review.text}</p>
           </div>
         </div>
       ))}
     </div>
   );
-};
-
-export default Review;
+}
