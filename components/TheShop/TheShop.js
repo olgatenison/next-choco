@@ -24,14 +24,6 @@ const TheShop = () => {
                 <ShopCard key={product.id} product={product} /> // Зверніть увагу на product
               )
             )}
-            {/* <ShopCard
-              imgSrc="/TheShop/ShopCard/item_01.jpg"
-              name="Dragée Box Hazelnut"
-              description="Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar."
-              price="10 €"
-              weight="180 grm"
-            />
-          */}
           </ul>
         </div>
 

@@ -1,6 +1,7 @@
 import Image from "next/image";
 
-const ShopCard = ({ imgSrc, name, description, price, weight }) => {
+const ShopCard = ({ product }) => {
+  const { imgSrc, name, description, price, weight } = product;
   return (
     <li className="shop__item">
       <Image
