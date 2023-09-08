@@ -3,94 +3,90 @@
 /*--------------------------------------*/
 /*--------------------------------------*/
 
-.shop {
+.product {
   background-color: #fff;
   padding-top: 90px;
-  padding-bottom: 290px;
+  padding-bottom: 130px;
+
   background-image: url("/TheShop/shop_bg.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom right;
 }
-
-.shop__title {
-  text-align: center;
-  padding-bottom: 60px;
-  letter-spacing: normal;
+.product__item {
+  display: flex;
+  justify-content: center;
 }
-.shop__slogan {
-  padding-top: 150px;
-}
-
-.shop__list {
-  display: grid;
-  gap: 70px 30px;
-  grid-template-columns: repeat(4, 1fr);
-}
-.shop__item {
-  border: var(--txt-gold) 1px solid;
-  color: var(--txt-black);
-  position: relative;
-}
-.shop__img {
+.product__img {
   width: 100%;
   transition: all 0.3s ease 0s;
+  margin-bottom: 40px;
 }
-.shop__img:hover {
-  scale: 0.97;
+
+.product__item-left {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
 }
-.shop__name {
+.product__item-down {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.product__item-right {
+  border: var(--txt-gold) 1px solid;
+  color: var(--txt-black);
+  max-width: 500px;
+  padding-bottom: 50px;
+}
+.product__name {
   font-family: "Marcellus SC", serif;
   font-size: 26px;
   font-weight: 500;
   line-height: 1;
-  padding: 20px;
+  padding: 40px;
   padding-bottom: 0px;
   color: var(--txt-gold);
 
   text-align: center;
 }
-.shop__txt {
-  padding: 20px;
+.product__txt {
+  padding: 40px;
   padding-bottom: 5px;
 }
-.shop__more {
+.product__back {
   color: var(--txt-gold);
-  padding-left: 20px;
+  padding-left: 40px;
+  padding-top: 30px;
+  display: block;
+
+  font-weight: 500;
 }
-.shop__more:hover,
-.shop__more:focus {
+.product__back:hover,
+.product__back:focus {
   text-decoration: underline;
 }
-.shop__help {
-  display: flex;
-  font-size: 18px;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 50px;
-  padding-top: 20px;
+.product__help {
+  display: block;
 }
-.shop__price {
+.product__price {
   font-family: "Marcellus SC", serif;
   font-size: 24px;
   font-weight: 500;
   color: var(--txt-gold);
 }
-.shop__grm {
-  padding-left: 30px;
+.product__grm {
+  font-size: 16px;
+  color: var(--txt-black);
 }
-.shop__btn {
-  position: absolute;
+.product__btn {
   background-color: #fff;
   color: var(--txt-gold);
   font-weight: 500;
   font-size: 24px;
-  bottom: -24px;
-  left: 85px;
-
   transition: all 0.3s ease 0s;
 }
-.shop__btn:hover {
+.product__btn:hover {
   background-color: var(--txt-gold);
   color: #fff;
 }
