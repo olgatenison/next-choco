@@ -90,7 +90,9 @@
 
   transition: all 0.3s ease 0s;
 }
-.shop__btn:hover {
+.shop__btn:hover,
+.shop__btn:focus,
+.shop__btn:active {
   background-color: var(--txt-gold);
   color: #fff;
 }
