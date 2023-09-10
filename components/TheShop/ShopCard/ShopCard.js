@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const ShopCard = ({ product }) => {
+const ShopCard = ({ product, addToBag }) => {
   const { id, imgSrc, name, description, price, weight } = product;
   return (
     <li className="shop__item">
@@ -26,7 +26,9 @@ const ShopCard = ({ product }) => {
         <p className="shop__grm">{weight}</p>
       </div>
 
-      <button className="shop__btn btn">Buy</button>
+      <button className="shop__btn btn" onClick={addToBag}>
+        Buy
+      </button>
     </li>
   );
 };

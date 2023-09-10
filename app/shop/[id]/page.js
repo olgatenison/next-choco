@@ -5,7 +5,9 @@ import Link from "next/link";
 var mydata = require("../../../data/products.json");
 
 export default function Page({ params }) {
-  var foundProduct = mydata.products.find((product) => product.id == params.id);
+  var foundProduct = mydata.products.find(
+    (product, addToBag) => product.id == params.id
+  );
 
   return (
     <section className="product">
@@ -28,7 +30,9 @@ export default function Page({ params }) {
                 <p className="product__grm">{foundProduct.weight}</p>
               </div>
 
-              <button className="product__btn btn">Buy</button>
+              <button className="product__btn btn" onClick={addToBag}>
+                Buy
+              </button>
             </div>
           </div>
 
