@@ -18,7 +18,7 @@ const TheShop = () => {
   return (
     <section className="shop">
       <div className="shop__container container">
-        {/* Прическать */}
+        {/* Причесать */}
         <div className="basket" style={{ color: "black" }}>
           <h2>Bag({basketItems.length})</h2>
           <ul>

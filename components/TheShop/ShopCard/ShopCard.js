@@ -1,8 +1,13 @@
+"use client";
+import React, { useContext } from "react";
+import { CustomContext } from "@/app/context";
 import Image from "next/image";
 import Link from "next/link";
 
 const ShopCard = ({ product, addToBag }) => {
   const { id, imgSrc, name, description, price, weight } = product;
+  const { value, setValue } = useContext(CustomContext);
+
   return (
     <li className="shop__item">
       <Link href={"/shop/" + id}>

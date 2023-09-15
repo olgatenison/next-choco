@@ -30,9 +30,9 @@ export default function Page({ params }) {
                 <p className="product__grm">{foundProduct.weight}</p>
               </div>
 
-              <button className="product__btn btn" onClick={addToBag}>
+              {/* <button className="product__btn btn" onClick={addToBag}>
                 Buy
-              </button>
+              </button> */}
             </div>
           </div>
 
