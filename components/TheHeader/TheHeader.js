@@ -45,6 +45,9 @@ const TheHeader = () => {
           >
             Order here
           </button>
+          <div>
+            <h3 className="bag">Bag:</h3>
+          </div>
         </nav>
       </div>
     </header>

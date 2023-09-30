@@ -1,9 +1,11 @@
 "use client";
-import React, { useState } from "react";
-import { CustomContext } from "./context/index";
 
 import "./globals.css";
 import { Montserrat, Marcellus_SC } from "next/font/google";
+
+import React, { useState } from "react";
+import { CustomContext } from "./context/index";
+
 import { TheHeader } from "@/components/TheHeader/TheHeader";
 import { TheFooter } from "@/components/TheFooter/TheFooter";
 
@@ -16,12 +18,12 @@ export const metadata = {
 };
 
 export default function MainLayout({ children }) {
-  const [value, setValue] = useState("hello");
+  const [value, setValue] = useState("1");
   return (
     <CustomContext.Provider value={{ value, setValue }}>
       <html lang="en">
         <body className={montserrat.className}>
-          <TheHeader />
+          <TheHeader /> Bag: {value}
           <div>{children}</div>
           <TheFooter />
         </body>

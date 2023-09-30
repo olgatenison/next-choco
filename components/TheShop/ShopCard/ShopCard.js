@@ -1,6 +1,6 @@
 "use client";
 import React, { useContext } from "react";
-import { CustomContext } from "@/app/context";
+import { CustomContext } from "../../../app/context/index";
 import Image from "next/image";
 import Link from "next/link";
 
