@@ -10,14 +10,14 @@ export default function Custom404() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div>
-          <h1>404 Page Not Found</h1>
-          <p>Please go back to maine</p>
+        <div className="error">
+          <h1 className="error__title">404 Page Not Found</h1>
+          <p className="error__subtitle">Please go back to maine</p>
         </div>
       </Link>
 
       <style jsx>{`
-        div {
+        .error {
           display: block;
           position: absolute;
           top: 40%;
@@ -25,7 +25,7 @@ export default function Custom404() {
           transform: translate(-50%, -50%);
         }
 
-        h1 {
+        .error__title {
           color: #a0761a;
           text-align: center;
           font-family: "Marcellus SC", serif;
@@ -41,14 +41,14 @@ export default function Custom404() {
           transition: all 0.3s ease 0s;
         }
 
-        h1:hover,
-        h1:focus,
-        h1:active {
+        .error__title:hover,
+        .error__title:focus,
+        .error__title:active {
           background-color: #292929;
           color: #fff;
         }
 
-        p {
+        .error__subtitle {
           color: #ffffff;
           opacity: 0.8;
           margin-top: 20px;
