@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import "./header.css";
-
 import { useRouter } from "next/navigation";
 
 const TheHeader = () => {
@@ -46,7 +45,7 @@ const TheHeader = () => {
             Order here
           </button>
           <div>
-            <h3 className="bag">Bag:</h3>
+            <h3 className="bag">Bag: 7</h3>
           </div>
         </nav>
       </div>

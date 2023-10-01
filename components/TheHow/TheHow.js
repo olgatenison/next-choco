@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import "./how.css";
-
 import { useRouter } from "next/navigation";
 
 const TheHow = () => {
@@ -19,8 +18,8 @@ const TheHow = () => {
               alt="making Chocolate"
               width={1500}
               height={1448}
-              sizes="(max-width: 640px) 100vw, (max-width: 750px) 70vw, 750px" // Оптимальні розміри для вашого дизайну
-              style={{ objectFit: "cover", width: "100%", height: "100%" }} // Стиль зображення
+              sizes="(max-width: 640px) 100vw, (max-width: 750px) 70vw, 750px"
+              style={{ objectFit: "cover", width: "100%", height: "100%" }}
             />
           </div>
 

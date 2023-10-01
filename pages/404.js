@@ -1,5 +1,6 @@
 import Link from "next/link";
 import "../app/globals.css";
+
 export default function Custom404() {
   return (
     <>
@@ -16,16 +17,17 @@ export default function Custom404() {
       </Link>
 
       <style jsx>{`
-      div {
+        div {
           display: block;
           position: absolute;
           top: 40%;
-          left: 42%;
-          
-        } 
-         h1 {
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+        h1 {
           color: #a0761a;
-                 
+          text-align: center;
           font-family: "Marcellus SC", serif;
           font-weight: 400;
           font-size: 24px;
@@ -37,22 +39,20 @@ export default function Custom404() {
           border: var(--txt-gold) solid 1px;
 
           transition: all 0.3s ease 0s;
-
         }
+
         h1:hover,
-         h1:focus,
-        h1:active{
-          background-color:  #292929;
+        h1:focus,
+        h1:active {
+          background-color: #292929;
           color: #fff;
         }
-p{
-  color:#ffffff;
-  opacity:0.8;
-  margin-top:20px;
-  text-align:center;
-  
-} 
 
+        p {
+          color: #ffffff;
+          opacity: 0.8;
+          margin-top: 20px;
+          text-align: center;
         }
       `}</style>
     </>

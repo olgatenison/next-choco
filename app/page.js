@@ -1,7 +1,7 @@
-import { TheHero } from "@/components/TheHero/TheHero";
-import { TheBenefits } from "@/components/TheBenefits/TheBenefits";
-import { TheInspired } from "@/components/TheInspired/TheInspired";
-import { TheEnjoy } from "@/components/TheEnjoy/TheEnjoy";
+import { TheHero } from "@/components/(home)/TheHero/TheHero";
+import { TheBenefits } from "@/components/(home)/TheBenefits/TheBenefits";
+import { TheInspired } from "@/components/(home)/TheInspired/TheInspired";
+import { TheEnjoy } from "@/components/(home)/TheEnjoy/TheEnjoy";
 
 export default function Home() {
   return (

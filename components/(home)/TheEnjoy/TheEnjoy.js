@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import "./enjoy.css";
 
 const TheEnjoy = () => {
@@ -20,11 +19,12 @@ const TheEnjoy = () => {
             src="/TheEnjoy/bg_white.jpg"
             alt="chocolate"
             width={1000}
-            height={500} // Это также можно указать как опциональное свойство, чтобы оптимизировать загрузку
+            height={500}
           />
         </div>
       </div>
     </section>
   );
 };
+
 export { TheEnjoy };
