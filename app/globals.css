@@ -149,11 +149,9 @@ body {
   font-size: 14px;
   line-height: 1.3;
   text-transform: uppercase;
-
   padding: 8px 20px;
   background-color: var(--bg-grey-color);
   border: var(--txt-gold) solid 1px;
-
   transition: all 0.3s ease 0s;
 }
 .btn:hover,
