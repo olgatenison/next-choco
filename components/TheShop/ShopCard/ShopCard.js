@@ -8,6 +8,10 @@ const ShopCard = ({ product, addToBag }) => {
   const { id, imgSrc, name, description, price, weight } = product;
   const { value, setValue } = useContext(CustomContext);
 
+  function addProductToBasket(product) {
+    setValue([...value, product]);
+  }
+
   return (
     <li className="shop__item">
       <Link href={"/shop/" + id}>
@@ -31,7 +35,10 @@ const ShopCard = ({ product, addToBag }) => {
         <p className="shop__grm">{weight}</p>
       </div>
 
-      <button className="shop__btn btn" onClick={addToBag}>
+      <button
+        className="shop__btn btn"
+        onClick={() => addProductToBasket(product)}
+      >
         Buy
       </button>
     </li>

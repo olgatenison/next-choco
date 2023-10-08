@@ -18,12 +18,12 @@ export const metadata = {
 };
 
 export default function MainLayout({ children }) {
-  const [value, setValue] = useState("1");
+  const [value, setValue] = useState([]);
   return (
     <CustomContext.Provider value={{ value, setValue }}>
       <html lang="en">
         <body className={montserrat.className}>
-          <TheHeader /> Bag: {value}
+          <TheHeader />
           <div>{children}</div>
           <TheFooter />
         </body>

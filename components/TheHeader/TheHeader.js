@@ -3,9 +3,16 @@
 import Link from "next/link";
 import "./header.css";
 import { useRouter } from "next/navigation";
+import React, { useContext } from "react";
+import { CustomContext } from "../../app/context/index";
 
 const TheHeader = () => {
   const router = useRouter();
+  const { value, setValue } = useContext(CustomContext);
+
+  function clear() {
+    setValue([]);
+  }
 
   return (
     <header className="header">
@@ -44,8 +51,11 @@ const TheHeader = () => {
           >
             Order here
           </button>
-          <div>
-            <h3 className="bag">Bag: 7</h3>
+          <div className="bag">
+            <h3 className="bag__name">Bag: {value.length}</h3>
+            <div onClick={clear} className="bag__cross">
+              X
+            </div>
           </div>
         </nav>
       </div>

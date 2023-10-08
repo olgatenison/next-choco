@@ -69,7 +69,14 @@
 .navigation__btn {
   margin-left: 30px;
 }
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
 .bag {
+  display: flex;
+}
+.bag__name {
   position: relative;
   margin-left: 50px;
   color: var(--txt-white);
@@ -81,8 +88,9 @@
   text-transform: uppercase;
 
   transition: all 0.3s ease 0s;
+  margin-right: 10px;
 }
-.bag::before {
+.bag__name::before {
   position: absolute;
   content: "";
   width: 20px;
@@ -94,6 +102,16 @@
   background-size: cover;
   top: -3px;
   left: -30px;
+}
+.bag__cross {
+  color: var(--txt-gold);
+  cursor: pointer;
+}
+.bag__cross:hover,
+.bag__cross:active,
+.bag__cross:focus {
+  color: var(--txt-gold);
+  opacity: 0.7;
 }
 /*--------------------------------------*/
 /*--------------------------------------*/
