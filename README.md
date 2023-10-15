@@ -61,3 +61,6 @@ export default Loading;
 Вище наведений код представляє компонент Loading, який відображає спінер завантаження. Я використовую його в моєму проекті для інформування користувача про те, що щось завантажується.
 
 </details>
+
+This project uses [Montserrat](https://fonts.google.com/specimen/Montserrat) and [Marcellus SC](https://fonts.google.com/specimen/Marcellus+SC) from Google Fonts.
+
