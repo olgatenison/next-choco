@@ -40,3 +40,23 @@ layout of site map in figma https://www.figma.com/file/47adv7WqcB6J5hCD3M2Y0F/Un
 This project uses [Montserrat](https://nextjs.org/docs/basic-features/font-optimization](https://fonts.google.com/specimen/Montserrat?query=Montserrat) and
 [Marcellus SC](https://nextjs.org/docs/basic-features/font-optimization](https://fonts.google.com/specimen/Marcellus+SC) 
 from Google Font.
+<details>
+<summary>❌ - Обробка стану завантаження</summary>
+В моєму проекті, я вирішив обробити стан завантаження, не використовуючи функціональність loading.js. Я замість цього вирішив відобразити спрощений індикатор завантаження.
+
+javascript
+Copy code
+import React from "react";
+
+const Loading = () => {
+  return (
+    <>
+      <Image src="../spinner177px.svg" width={177} height={177}></Image>
+    </>
+  );
+};
+
+export default Loading;
+Вище наведений код представляє компонент Loading, який відображає спінер завантаження. Я використовую його в моєму проекті для інформування користувача про те, що щось завантажується.
+
+</details>
