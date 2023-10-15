@@ -60,6 +60,6 @@ export default Loading;
 
 This project, including design and execution, was skillfully crafted by [Olga Tenison](https://github.com/olgatenison) under the invaluable mentorship of [Matthias Bruch](https://github.com/matthiasbruch).
 
-The design of the project incorporates fonts [Montserrat](https://nextjs.org/docs/basic-features/font-optimization](https://fonts.google.com/specimen/Montserrat?query=Montserrat) and [Marcellus SC](https://nextjs.org/docs/basic-features/font-optimization](https://fonts.google.com/specimen/Marcellus+SC) from Google Fonts.
+This project uses [Montserrat](https://fonts.google.com/specimen/Montserrat) and [Marcellus SC](https://fonts.google.com/specimen/Marcellus+SC) from Google Fonts.
 
 
