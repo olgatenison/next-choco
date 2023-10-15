@@ -36,6 +36,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ![site map context](https://github.com/olgatenison/next-choco/blob/main/public/forDescription/itWorks_02.jpg)
 
 layout of site map in figma https://www.figma.com/file/47adv7WqcB6J5hCD3M2Y0F/Untitled?type=design&node-id=1%3A77&mode=design&t=OXVfiBzmjJXbq7N6-1
+This project uses [Montserrat](https://fonts.google.com/specimen/Montserrat) and [Marcellus SC](https://fonts.google.com/specimen/Marcellus+SC) from Google Fonts.
 
 This project uses [Montserrat](https://nextjs.org/docs/basic-features/font-optimization](https://fonts.google.com/specimen/Montserrat?query=Montserrat) and
 [Marcellus SC](https://nextjs.org/docs/basic-features/font-optimization](https://fonts.google.com/specimen/Marcellus+SC) 
