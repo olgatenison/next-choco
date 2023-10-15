@@ -41,8 +41,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 <summary>❌ - Обробка стану завантаження</summary>
 В моєму проекті, я вирішив обробити стан завантаження, не використовуючи функціональність loading.js. Я замість цього вирішив відобразити спрощений індикатор завантаження.
 
-javascript
-Copy code
+<pre><code>```javascript
 import React from "react";
 
 const Loading = () => {
@@ -53,7 +52,7 @@ const Loading = () => {
   );
 };
 
-export default Loading;
+export default Loading;```</code></pre>
 Вище наведений код представляє компонент Loading, який відображає спінер завантаження. Я використовую його в моєму проекті для інформування користувача про те, що щось завантажується.
 
 </details>
