@@ -1,6 +1,9 @@
+// TheReviews.js
+import React from "react";
 import "./reviews.css";
 import Review from "@/components/TheReviews/Review/Review";
 import mydata from "../../data/reviews.json";
+import { Slider } from "../TheSlider/TheSlider";
 
 const TheReviews = () => {
   return (
@@ -15,7 +18,8 @@ const TheReviews = () => {
         </p>
 
         {/* Передайте дані в компонент Review */}
-        <Review reviews={mydata.reviews} />
+        <Slider reviews={mydata.reviews} />
+        {/* <Review reviews={mydata.reviews} /> */}
       </div>
     </section>
   );

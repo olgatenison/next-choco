@@ -25,6 +25,7 @@ export default function MainLayout({ children }) {
         <body className={montserrat.className}>
           <TheHeader />
           <div>{children}</div>
+
           <TheFooter />
         </body>
       </html>

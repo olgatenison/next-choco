@@ -1,3 +1,4 @@
+"use client";
 import { TheReviews } from "@/components/TheReviews/TheReviews";
 import { TheTesting } from "@/components/TheTesting/TheTesting";
 
