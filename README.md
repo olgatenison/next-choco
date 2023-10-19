@@ -35,8 +35,30 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ![site map](https://github.com/olgatenison/next-choco/blob/main/public/forDescription/itWorks_01.jpg)
 ![site map context](https://github.com/olgatenison/next-choco/blob/main/public/forDescription/itWorks_02.jpg)
 
-layout of site map in figma https://www.figma.com/file/47adv7WqcB6J5hCD3M2Y0F/Untitled?type=design&node-id=1%3A77&mode=design&t=OXVfiBzmjJXbq7N6-1
 
-This project uses [Montserrat](https://nextjs.org/docs/basic-features/font-optimization](https://fonts.google.com/specimen/Montserrat?query=Montserrat) and
-[Marcellus SC](https://nextjs.org/docs/basic-features/font-optimization](https://fonts.google.com/specimen/Marcellus+SC) 
-from Google Font.
+
+<details>
+<summary>❌ - Обробка стану завантаження</summary>
+В моєму проекті, я вирішив обробити стан завантаження, не використовуючи функціональність loading.js. Я замість цього вирішив відобразити спрощений індикатор завантаження.
+
+<pre><code>```javascript
+import React from "react";
+
+const Loading = () => {
+  return (
+    <>
+      <Image src="../spinner177px.svg" width={177} height={177}></Image>
+    </>
+  );
+};
+
+export default Loading;```</code></pre>
+Вище наведений код представляє компонент Loading, який відображає спінер завантаження. Я використовую його в моєму проекті для інформування користувача про те, що щось завантажується.
+
+</details>
+
+This project, including design and execution, was skillfully crafted by [Olga Tenison](https://github.com/olgatenison) under the invaluable mentorship of [Matthias Bruch](https://github.com/matthiasbruch).
+
+This project uses [Montserrat](https://fonts.google.com/specimen/Montserrat) and [Marcellus SC](https://fonts.google.com/specimen/Marcellus+SC) from Google Fonts.
+
+
