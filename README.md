@@ -47,6 +47,7 @@ import React from "react";
 const Loading = () => {
   return (
     <>
+      [https://raw.githubusercontent.com/olgatenison/next-choco/3ae352189c1c357e54074dc2bb110422ba57c0ec/public/spinner177px.svg]
       <Image src="../spinner177px.svg" width={177} height={177}></Image>
     </>
   );
