@@ -3,7 +3,7 @@
 /*--------------------------------------*/
 /*--------------------------------------*/
 .reviews {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .reviews__container {
   padding-top: 50px;
@@ -43,7 +43,7 @@
   background-image: url("/TheReviews/reviewes_left.png");
   background-repeat: no-repeat;
   background-size: cover;
-  top: 450px;
+  top: 350px;
   right: -400px;
 }
 
@@ -58,6 +58,10 @@
 
 .reviews__content {
   padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
 }
 
 .reviews__wrapper {
@@ -73,8 +77,8 @@
 }
 
 .reviews__photo {
-  width: 100px;
-  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .reviews__name {
@@ -88,11 +92,12 @@
 }
 
 .reviews__txt {
-  font-weight: 400;
+  font-weight: 300;
   color: var(--txt-white);
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 2%;
+  text-align: justify;
 }
 
 /*--------------------------------------*/
@@ -192,9 +197,9 @@
     margin-right: auto;
   }
 
-  .reviews__wrapper {
+  /* .reviews__wrapper {
     flex-direction: column;
-  }
+  } */
   .reviews__content {
     padding-left: 0px;
   }

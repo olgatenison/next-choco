@@ -18,6 +18,7 @@
 }
 
 .hero__subtitle {
+  font-weight: 300;
   max-width: 400px;
   padding-bottom: 50px;
 }
@@ -39,7 +40,9 @@
   color: var(--txt-white);
   background-color: transparent;
 }
-
+.hero__btn-white {
+  background-color: transparent;
+}
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/

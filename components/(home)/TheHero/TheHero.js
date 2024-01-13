@@ -24,7 +24,10 @@ const TheHero = () => {
             Buy now
           </button>
 
-          <Link href="./how" className="hero__btn btn-white btn">
+          <Link
+            href="./how"
+            className="hero__btn btn-white btn hero__btn-white"
+          >
             How it’s made
           </Link>
         </div>

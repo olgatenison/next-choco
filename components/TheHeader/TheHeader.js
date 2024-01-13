@@ -51,12 +51,13 @@ const TheHeader = () => {
           >
             Order here
           </button>
-          <div className="bag">
+          <Link href="/bag" className="bag">
             <h3 className="bag__name">Bag: {value.length}</h3>
-            <div onClick={clear} className="bag__cross">
-              X
-            </div>
-          </div>
+
+            {/* <div onClick={clear} className="bag__cross">
+                X
+              </div> */}
+          </Link>
         </nav>
       </div>
     </header>

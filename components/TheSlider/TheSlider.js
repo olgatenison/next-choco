@@ -1,40 +1,51 @@
-import Image from "next/image";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.min.css";
-import "swiper/swiper-bundle.min.css";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+// Import Swiper styles
+
+// import required modules
+import { Pagination } from "swiper/modules";
+
+import "./slider.css";
+import Review from "../TheReviews/Review/Review";
 
 const Slider = ({ reviews }) => {
+  console.log({ reviews });
   return (
     <Swiper
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={50}
-      slidesPerView={3}
-      navigation
-      pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
+      spaceBetween={30}
+      pagination={{
+        clickable: true,
+      }}
+      modules={[Pagination]}
+      className="mySwiper"
     >
       {reviews.map((review) => (
         <SwiperSlide key={review.id}>
-          <div className="reviews__wrapper">
-            <Image
-              className="reviews__photo"
-              src={review.photo}
-              alt={review.name}
-              width={100}
-              height={100}
-            />
-            <div className="reviews__content">
-              <h3 className="reviews__name">{review.name}</h3>
-              <p className="reviews__txt">{review.text}</p>
-            </div>
-          </div>
+          <Review reviews={[review]} />
         </SwiperSlide>
       ))}
     </Swiper>
   );
 };
 
-export { Slider };
+export default Slider;
+// const Slider = () => {
+//   return (
+//     <>
+//       <>
+//         <Swiper
+//           pagination={{
+//             dynamicBullets: true,
+//           }}
+//           modules={[Pagination]}
+//           className="mySwiper"
+//         >
+//           <SwiperSlide>{Review}</SwiperSlide>
+//         </Swiper>
+//       </>
+//     </>
+//   );
+// };
+
+// export default Slider;

@@ -3,7 +3,11 @@ import React from "react";
 import "./reviews.css";
 import Review from "@/components/TheReviews/Review/Review";
 import mydata from "../../data/reviews.json";
-import { Slider } from "../TheSlider/TheSlider";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/free-mode";
+import Slider from "../TheSlider/TheSlider";
 
 const TheReviews = () => {
   return (
