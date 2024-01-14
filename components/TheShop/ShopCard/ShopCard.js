@@ -31,7 +31,7 @@ const ShopCard = ({ product, addToBag }) => {
         Read more...
       </Link>
       <div className="shop__help">
-        <p className="shop__price">{price}</p>
+        <p className="shop__price">{price} €</p>
         <p className="shop__grm">{weight}</p>
       </div>
 

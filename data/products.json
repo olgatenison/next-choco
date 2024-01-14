@@ -5,7 +5,7 @@
       "imgSrc": "/TheShop/ShopCard/item_01.jpg",
       "name": "Dragée Box Hazelnut",
       "description": "Roasted and caramelised Piedmontese hazelnuts coated in dark Grand Cru chocolate from Madagascar.",
-      "price": "10 €",
+      "price": "10",
       "weight": "180 grm",
       "more": "Our 'Dragée Box Hazelnut' is a celebration of the finest ingredients. Roasted and caramelized Piedmontese hazelnuts are lovingly coated in dark Grand Cru chocolate from Madagascar, creating a symphony of flavors that dance on your palate. Indulge in the rich, nutty aroma and the exquisite taste of this handcrafted delight. With each bite, you'll experience the perfect blend of crunchy hazelnuts and premium chocolate, making it a true gourmet treat for your senses."
     },
@@ -14,7 +14,7 @@
       "imgSrc": "/TheShop/ShopCard/item_02.jpg",
       "name": "Raspberry Truffle Delight",
       "description": "Indulge in the delightful combination of luscious raspberry puree infused with smooth milk chocolate ganache, enrobed in a rich dark chocolate shell.",
-      "price": "8 €",
+      "price": "8",
       "weight": "150 grm",
       "more": "All our products are crafted with love from natural ingredients. It's a flavor that transforms every bite into a true culinary experience, handmade with care for your enjoyment. Prepared with genuine craftsmanship, this product is designed to satisfy your most refined gastronomic expectations and deliver unforgettable pleasure with every spoonful."
     },
@@ -23,7 +23,7 @@
       "imgSrc": "/TheShop/ShopCard/item_03.jpg",
       "name": "Salted Caramel Praline",
       "description": "Experience the perfect balance of sweet and salty with our artisanal salted caramel praline, made with creamy caramel and encased in velvety milk chocolate.",
-      "price": "12 €",
+      "price": "12",
       "weight": "200 grm",
       "more": "Experience the perfect balance of sweet and salty with our 'Salted Caramel Praline.' This artisanal creation is made with creamy caramel and encased in velvety milk chocolate, delivering a harmonious blend of flavors that will tantalize your taste buds. Every bite is a journey into indulgence, where the richness of caramel meets the smoothness of chocolate. Handcrafted with care, this delightful treat in a 200-gram package is designed to elevate your sweet cravings and leave you craving for more."
     },
@@ -32,7 +32,7 @@
       "imgSrc": "/TheShop/ShopCard/item_04.jpg",
       "name": "Dark Chocolate Espresso Beans",
       "description": "Awaken your senses with the intense flavor of dark chocolate enrobing premium roasted espresso beans, creating a truly indulgent treat.",
-      "price": "9 €",
+      "price": "9",
       "weight": "120 grm",
       "more": "Awaken your senses with our 'Dark Chocolate Espresso Beans.' This indulgent treat combines the intense flavor of dark chocolate with premium roasted espresso beans. Each bite is a journey into the world of rich, aromatic coffee and velvety chocolate. Handcrafted with care, this 120-gram delight is designed to provide you with an energizing and satisfying snack that's perfect for coffee and chocolate lovers alike."
     },
@@ -41,7 +41,7 @@
       "imgSrc": "/TheShop/ShopCard/item_05.jpg",
       "name": "White Chocolate Passionfruit Bonbon",
       "description": "Tantalize your taste buds with the exotic blend of white chocolate ganache infused with tangy passionfruit essence, enclosed in a delicate white chocolate shell.",
-      "price": "7.5 €",
+      "price": "7.5",
       "weight": "140 grm",
       "more": "Tantalize your taste buds with our 'White Chocolate Passionfruit Bonbon.' This exquisite treat offers an exotic blend of white chocolate ganache infused with the tangy essence of passionfruit, delicately enclosed in a white chocolate shell. Each bite is a symphony of flavors, where the sweetness of white chocolate harmonizes perfectly with the zesty passionfruit notes. Handcrafted with care, this 140-gram delight is designed to transport your senses to a tropical paradise, leaving you craving more of its delightful fusion."
     },
@@ -50,7 +50,7 @@
       "imgSrc": "/TheShop/ShopCard/item_06.jpg",
       "name": "Mint Chocolate Bliss",
       "description": "Refreshingly cool mint-flavored dark chocolate ganache meets the velvety embrace of premium milk chocolate, delivering a blissful confectionery experience.",
-      "price": "10.5 €",
+      "price": "10.5",
       "weight": "160 grm",
       "more": "Experience a 'Mint Chocolate Bliss' that's refreshingly cool and indulgently delicious. This delightful confectionery combines the invigorating flavor of mint-infused dark chocolate ganache with the velvety embrace of premium milk chocolate. Each bite is a symphony of contrasting yet harmonious tastes, where the coolness of mint meets the creaminess of milk chocolate. Handcrafted with care, this 160-gram delight is designed to transport your taste buds to a realm of pure bliss, making it an irresistible treat for chocolate enthusiasts."
     },
@@ -59,7 +59,7 @@
       "imgSrc": "/TheShop/ShopCard/item_07.jpg",
       "name": "Almond Marzipan Delight",
       "description": "Savor the timeless delight of almond marzipan coated in a thin layer of bittersweet chocolate, crafted with love and tradition.",
-      "price": "11 €",
+      "price": "11",
       "weight": "175 grm",
       "more": "Savor the timeless delight of our 'Almond Marzipan Delight.' This exquisite treat features almond marzipan, expertly crafted and coated in a thin layer of bittersweet chocolate. Each bite is a journey through the rich and nutty flavors of almond marzipan, complemented by the perfect balance of bittersweet chocolate. Handcrafted with love and tradition, this 175-gram delight encapsulates the essence of artisanal craftsmanship, making it a cherished treat for those who appreciate the finer things in life."
     },
@@ -68,7 +68,7 @@
       "imgSrc": "/TheShop/ShopCard/item_08.jpg",
       "name": "Orange Zest Chocolate Bar",
       "description": "Embark on a zesty journey with our orange-infused dark chocolate bar, where citrusy notes dance harmoniously with deep cocoa flavors.",
-      "price": "6.5 €",
+      "price": "6.5",
       "weight": "100 grm",
       "more": "Embark on a zesty journey with our 'Orange Zest Chocolate Bar.' This delightful creation combines the vibrant citrusy notes of orange with the rich depths of dark chocolate, resulting in a harmonious flavor experience. Each bite is a fusion of bright zest and deep cocoa, creating a symphony of taste that lingers on your palate. Crafted with care, this 100-gram chocolate bar is designed to awaken your senses and satisfy your cravings for both citrusy freshness and the richness of dark chocolate."
     },
@@ -77,7 +77,7 @@
       "imgSrc": "/TheShop/ShopCard/item_09.jpg",
       "name": "Toffee Crunch Milk Chocolate",
       "description": "Crunchy toffee bits nestled in velvety milk chocolate create a symphony of textures and tastes that will satisfy your sweet cravings.",
-      "price": "9.5 €",
+      "price": "9.5",
       "weight": "130 grm",
       "more": "Indulge in the delightful 'Toffee Crunch Milk Chocolate,' where crunchy toffee bits are lovingly nestled in velvety milk chocolate. This exquisite combination creates a symphony of textures and tastes that will undoubtedly satisfy your sweet cravings. With every bite, you'll experience the perfect blend of creamy milk chocolate and the irresistible crunch of toffee. Crafted with care, this 130-gram treat is designed to provide you with a delectable experience that's impossible to resist."
     },
@@ -86,7 +86,7 @@
       "imgSrc": "/TheShop/ShopCard/item_10.jpg",
       "name": "Chili Infused Dark Chocolate",
       "description": "Ignite your palate with the intriguing blend of spicy chili flakes embraced by the deep intensity of dark chocolate, a daring and delectable experience.",
-      "price": "8.5 €",
+      "price": "8.5",
       "weight": "110 grm",
       "more": "Ignite your palate with our 'Chili Infused Dark Chocolate,' an intriguing blend of spicy chili flakes embraced by the deep intensity of dark chocolate. This daring and delectable experience will take your taste buds on a fiery journey. With each bite, you'll experience the harmonious dance of spicy chili and the rich complexity of dark chocolate. Crafted with care, this 110-gram delight is designed to add a bold and unforgettable twist to your chocolate indulgence."
     },
@@ -95,7 +95,7 @@
       "imgSrc": "/TheShop/ShopCard/item_11.jpg",
       "name": "Hazelnut Praline Milk Chocolate",
       "description": "Indulge in the creamy goodness of hazelnut praline wrapped in smooth milk chocolate for a delightful taste experience.",
-      "price": "7.5 €",
+      "price": "7.5",
       "weight": "100 grm",
       "more": "Indulge in the creamy goodness of our 'Hazelnut Praline Milk Chocolate.' This exquisite treat features velvety hazelnut praline wrapped in smooth milk chocolate, delivering a delightful taste experience that's simply irresistible. Each bite is a fusion of creamy hazelnut goodness and the rich sweetness of milk chocolate. Crafted with care, this 100-gram delight is designed to provide you with a moment of pure indulgence and satisfaction."
     },
@@ -104,7 +104,7 @@
       "imgSrc": "/TheShop/ShopCard/item_12.jpg",
       "name": "Raspberry White Chocolate",
       "description": "Experience the exquisite harmony of tart raspberries and sweet white chocolate that will captivate your senses with every bite.",
-      "price": "6.5 €",
+      "price": "6.5",
       "weight": "90 grm",
       "more": "Experience the exquisite harmony of our 'Raspberry White Chocolate,' where tart raspberries meet the sweetness of white chocolate to captivate your senses with every bite. This delightful combination creates a symphony of flavors that's both refreshing and indulgent. Crafted with care, this 90-gram treat is designed to provide you with a taste experience that's simply irresistible, leaving you craving for more of its delightful fusion."
     },
@@ -113,7 +113,7 @@
       "imgSrc": "/TheShop/ShopCard/item_13.jpg",
       "name": "Mint Chocolate Chip",
       "description": "Enjoy the refreshing combination of minty freshness and rich chocolate chips in this cool and satisfying treat.",
-      "price": "8.0 €",
+      "price": "8.0",
       "weight": "120 grm",
       "more": "Enjoy the refreshing combination of minty freshness and rich chocolate chips in our 'Mint Chocolate Chip' treat. This cool and satisfying indulgence is a perfect blend of cool mint flavor and the delightful crunch of chocolate chips. Crafted with care, this 120-gram treat is designed to provide you with a taste experience that's both invigorating and indulgent, making it a delightful choice for mint and chocolate lovers alike."
     },
@@ -122,7 +122,7 @@
       "imgSrc": "/TheShop/ShopCard/item_14.jpg",
       "name": "Salted Caramel Dark Chocolate",
       "description": "Delight in the perfect balance of sweet and salty with luscious caramel enrobed in decadent dark chocolate.",
-      "price": "9.0 €",
+      "price": "9.0",
       "weight": "110 grm",
       "more": "Delight in the perfect balance of sweet and salty with our 'Salted Caramel Dark Chocolate.' This exquisite treat features luscious caramel enrobed in decadent dark chocolate, creating a symphony of flavors that will tantalize your taste buds. Crafted with care, this 110-gram delight is designed to provide you with a taste experience that's both indulgent and harmonious, making it a must-try for lovers of caramel and dark chocolate."
     },
@@ -131,7 +131,7 @@
       "imgSrc": "/TheShop/ShopCard/item_15.jpg",
       "name": "Almond Crunch White Chocolate",
       "description": "Savor the satisfying crunch of almonds enveloped in velvety white chocolate for a delightful taste sensation.",
-      "price": "7.5 €",
+      "price": "7.5",
       "weight": "100 grm",
       "more": "Savor the satisfying crunch of almonds enveloped in velvety white chocolate with our 'Almond Crunch White Chocolate.' This delightful treat offers a delightful taste sensation, where the nutty crunch of almonds meets the sweetness of white chocolate. Crafted with care, this 100-gram delight is designed to provide you with a moment of pure indulgence and satisfaction, making it a perfect choice for those who appreciate the delightful combination of almonds and white chocolate."
     },
@@ -140,7 +140,7 @@
       "imgSrc": "/TheShop/ShopCard/item_16.jpg",
       "name": "Orange Zest Dark Chocolate",
       "description": "Elevate your taste buds with the zesty infusion of orange peel and rich dark chocolate, a bold and citrusy delight.",
-      "price": "8.5 €",
+      "price": "8.5",
       "weight": "120 grm",
       "more": "Elevate your taste buds with the zesty infusion of orange peel and rich dark chocolate in our 'Orange Zest Dark Chocolate.' This bold and citrusy delight is a symphony of flavors that will awaken your senses. Crafted with care, this 120-gram delight is designed to provide you with a taste experience that's both invigorating and indulgent, making it a perfect choice for those who appreciate the bold combination of orange zest and dark chocolate."
     }

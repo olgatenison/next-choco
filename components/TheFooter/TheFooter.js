@@ -1,7 +1,34 @@
+import React, { useContext, useState } from "react";
 import Link from "next/link";
 import "./footer.css";
+import { validateEmail } from "../../services/validation";
 
 const TheFooter = () => {
+  const [email, setEmail] = useState("");
+  const [emailError, setEmailError] = useState("");
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+    validateEmail(e.target.value)
+      ? setEmailError("")
+      : setEmailError("Please enter a valid email address");
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Проверка валидности email перед отправкой
+    if (validateEmail(email)) {
+      // Логика для отправки данных на сервер
+      // После успешной отправки можно сбросить значение email
+      setEmail("");
+      // Очистить сообщение об ошибке (если есть)
+      setEmailError("");
+    } else {
+      setEmailError("Please enter a valid email address");
+    }
+  };
+
   return (
     <footer className="footer">
       <div className="footer__container container">
@@ -52,15 +79,21 @@ const TheFooter = () => {
               </Link>
             </li>
           </ul>
+
           <div className="footer__wrapper">
-            <input
-              className="footer__input"
-              type="email"
-              placeholder="Enter your email"
-            />
-            <button className="footer__btn btn" type="submit">
-              Subscribe
-            </button>
+            <form onSubmit={handleSubmit} className="footer__form">
+              <input
+                className="footer__input"
+                type="email"
+                placeholder="Enter your email"
+                value={email}
+                onChange={handleEmailChange}
+              />
+              <button className="footer__btn btn" type="submit">
+                Subscribe
+              </button>
+            </form>
+            {emailError && <p className="error-message">{emailError}</p>}
           </div>
         </div>
       </div>
