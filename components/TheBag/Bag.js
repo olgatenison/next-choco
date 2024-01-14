@@ -1,7 +1,18 @@
 import React, { useContext, useState } from "react";
 import { validateEmail } from "../../services/validation";
+import { CustomContext } from "@/app/context";
 
-const Bag = ({ value, clearOne }) => {
+const Bag = ({ clearOne }) => {
+  const { value, setValue } = useContext(CustomContext);
+
+  useEffect(() => {
+    // Получаем состояние из localStorage при монтировании компонента
+    const storedBasket = localStorage.getItem("basket");
+    if (storedBasket) {
+      setValue(JSON.parse(storedBasket));
+    }
+  }, [setValue]); // useEffect с зависимостью setValue
+
   // Сортировка товаров по имени в алфавитном порядке
   const sortedItems = value
     .slice()
@@ -12,6 +23,13 @@ const Bag = ({ value, clearOne }) => {
     (total, item) => total + parseFloat(item.price),
     0
   );
+
+  // Функция для удаления элемента из корзины по индексу
+  const handleClearOne = (index) => {
+    const updatedBasket = value.filter((_, i) => i !== index);
+    setValue(updatedBasket);
+    localStorage.setItem("basket", JSON.stringify(updatedBasket));
+  };
 
   // Состояние для email
   const [email, setEmail] = useState("");
