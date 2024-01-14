@@ -1,9 +1,9 @@
 "use client";
-
+import "./shop.css";
 import Link from "next/link";
 import React, { useContext } from "react";
 import { CustomContext } from "../../app/context/index";
-import Bag from "../TheBag/Bag";
+
 import ShopCard from "@/components/TheShop/ShopCard/ShopCard";
 var mydata = require("../../data/products.json");
 
@@ -14,8 +14,6 @@ const TheShop = () => {
   const addToBag = (product) => {
     const updatedBasket = [...value, product];
     setValue(updatedBasket);
-
-    // Сохраняем состояние корзины в localStorage
     localStorage.setItem("basket", JSON.stringify(updatedBasket));
   };
 

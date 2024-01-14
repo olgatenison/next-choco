@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { validateEmail } from "../../services/validation";
 import { CustomContext } from "@/app/context";
 
@@ -23,13 +23,6 @@ const Bag = ({ clearOne }) => {
     (total, item) => total + parseFloat(item.price),
     0
   );
-
-  // Функция для удаления элемента из корзины по индексу
-  const handleClearOne = (index) => {
-    const updatedBasket = value.filter((_, i) => i !== index);
-    setValue(updatedBasket);
-    localStorage.setItem("basket", JSON.stringify(updatedBasket));
-  };
 
   // Состояние для email
   const [email, setEmail] = useState("");
