@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import Link from "next/link";
 import "./footer.css";
 import { validateEmail } from "../../services/validation";
+// import { git } from "../../public/git.svg";
 
 const TheFooter = () => {
   const [email, setEmail] = useState("");
@@ -42,7 +43,7 @@ const TheFooter = () => {
             <ul className="adress__list">
               <li className="adress__item">
                 <Link className="adress__link" href="tel:+380684439426">
-                  +380 (68) 443-94-26
+                  +380 (88) 444-44-44
                 </Link>
               </li>
               <li className="adress__item">
@@ -50,7 +51,7 @@ const TheFooter = () => {
                   className="adress__link"
                   href="mailto:simplychoc@gmail.com"
                 >
-                  simplychoc@gmail.com
+                  Chocolate@gmail.com
                 </Link>
               </li>
             </ul>
@@ -95,6 +96,20 @@ const TheFooter = () => {
             </form>
             {emailError && <p className="error-message">{emailError}</p>}
           </div>
+        </div>
+
+        <div className="signature">
+          <Link className="olga" href="https://github.com/olgatenison">
+            Designed and developed by Olga Tenison
+          </Link>
+          <Link
+            className="icon-git"
+            href="https://github.com/olgatenison"
+          ></Link>
+          <Link
+            className="icon-in"
+            href="https://www.linkedin.com/in/olga-tenison/"
+          ></Link>
         </div>
       </div>
     </footer>

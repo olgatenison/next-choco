@@ -123,7 +123,43 @@
 .footer__btn {
   height: 45px;
 }
-
+.signature {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.olga {
+  color: #a0761a;
+}
+.icon-git {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-image: url(/git.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.icon-in {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-image: url(/in.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.olga:hover,
+.olga:focus,
+.olga:active,
+.icon-in:hover,
+.icon-in:focus,
+.icon-in:active,
+.icon-git:hover,
+.icon-git:focus,
+.icon-git:active {
+  opacity: 0.6;
+}
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
