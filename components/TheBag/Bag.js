@@ -13,6 +13,11 @@ const Bag = ({ clearOne }) => {
     }
   }, [setValue]); // useEffect с зависимостью setValue
 
+  // Обновление списка покупок при изменении value из контекста
+  useEffect(() => {
+    localStorage.setItem("basket", JSON.stringify(value));
+  }, [value]);
+
   // Сортировка товаров по имени в алфавитном порядке
   const sortedItems = value
     .slice()
