@@ -204,7 +204,7 @@
     font-size: 12px;
   }
 }
-@media screen and (max-width: 508px) {
+@media screen and (max-width: 550px) {
   .footer {
     margin: 0 auto;
     margin-bottom: 40px;

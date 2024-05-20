@@ -33,6 +33,11 @@ const TheHeader = () => {
               </Link>
             </li>
             <li className="navigation__item">
+              <Link href="/history" className="navigation__link">
+                Our history
+              </Link>
+            </li>
+            <li className="navigation__item">
               <Link href="/how" className="navigation__link">
                 How it’s made?
               </Link>

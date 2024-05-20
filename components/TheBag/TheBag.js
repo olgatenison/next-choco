@@ -1,5 +1,4 @@
 "use client";
-"use client";
 import React, { useContext, useEffect } from "react";
 import Bag from "./Bag";
 import "./bag.css";
