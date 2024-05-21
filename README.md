@@ -31,7 +31,6 @@ next-choco is a web application for an online chocolate store built with Next.js
 
 ![site map context](https://github.com/olgatenison/next-choco/blob/main/public/forDescription/itWorks_02.jpg)
 
-![first page](https://github.com/olgatenison/next-choco/blob/main/public/forDescription/01_page_s.jpg)
 
 ## Project Structure
 
@@ -46,9 +45,9 @@ The project follows a standard Next.js project structure:
 
 
 
-![site page](https://github.com/olgatenison/next-choco/blob/main/public/forDescription/03_page_s.jpg)
+![site page](https://github.com/olgatenison/next-choco/blob/main/public/forDescription/02_page_s.jpg)
 
-![site page](https://github.com/olgatenison/next-choco/blob/main/public/forDescription/04_page_s.jpg)
+
 
 ## How to Run
 
