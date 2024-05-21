@@ -44,9 +44,7 @@ The project follows a standard Next.js project structure:
 - **data**: Contains JSON data for products and reviews.
 
 
-
 ![site page](https://github.com/olgatenison/next-choco/blob/main/public/forDescription/02_page_s.jpg)
-
 
 
 ## How to Run
@@ -55,7 +53,7 @@ The project follows a standard Next.js project structure:
 2. Install dependencies: `npm install`
 3. Run the development server: `npm run dev`
 
-![site page](https://github.com/olgatenison/next-choco/blob/main/public/forDescription/05_page_s.jpg)
+![site page](https://github.com/olgatenison/next-choco/blob/main/public/forDescription/04_page_s.jpg)
 
 
 
