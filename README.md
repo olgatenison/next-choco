@@ -44,7 +44,7 @@ The project follows a standard Next.js project structure:
 - **public**: Contains static assets like images and fonts.
 - **data**: Contains JSON data for products and reviews.
 
-![history page](https://github.com/olgatenison/next-choco/blob/main/public/forDescription/02_page_s.jpg)
+
 
 ![site page](https://github.com/olgatenison/next-choco/blob/main/public/forDescription/03_page_s.jpg)
 
@@ -58,9 +58,7 @@ The project follows a standard Next.js project structure:
 
 ![site page](https://github.com/olgatenison/next-choco/blob/main/public/forDescription/05_page_s.jpg)
 
-![site page](https://github.com/olgatenison/next-choco/blob/main/public/forDescription/06_page_s.jpg)
 
-![site page](https://github.com/olgatenison/next-choco/blob/main/public/forDescription/07_page_s.jpg)
 
 This project, including design and execution, was skillfully crafted by [Olga Tenison](https://github.com/olgatenison)
 under the invaluable mentorship of [Matthias Bruch](https://github.com/matthiasbruch).
