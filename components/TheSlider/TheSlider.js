@@ -30,22 +30,3 @@ const Slider = ({ reviews }) => {
 };
 
 export default Slider;
-// const Slider = () => {
-//   return (
-//     <>
-//       <>
-//         <Swiper
-//           pagination={{
-//             dynamicBullets: true,
-//           }}
-//           modules={[Pagination]}
-//           className="mySwiper"
-//         >
-//           <SwiperSlide>{Review}</SwiperSlide>
-//         </Swiper>
-//       </>
-//     </>
-//   );
-// };
-
-// export default Slider;
